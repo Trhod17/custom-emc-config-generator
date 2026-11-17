@@ -1,0 +1,519 @@
+bucket:
+    id: 325
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 3
+    qty_from_craft: 1
+water_bucket:
+    id: 326
+    meta: 0
+    emc: 769
+lava_bucket:
+    id: 327
+    meta: 0
+    emc: 832
+milk_bucket:
+    id: 335
+    meta: 0
+    emc: 849
+flint:
+    id: 318
+    meta: 0
+    emc: 16
+stick:
+    id: 280
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 2
+    qty_from_craft: 1
+string:
+    id: 287
+    meta: 0
+    emc: 12
+slime_ball:
+    id: 341
+    meta: 0
+    emc: 24
+bone:
+    id: 352
+    meta: 0
+    emc: 144
+clay:
+    id: 337
+    meta: 0
+    emc: 16
+brick:
+    id: 336
+    meta: 0
+    recipe:
+        - item: clay
+          qty: 1.5
+    qty_from_craft: 1
+sugar_cane:
+    id: 338
+    meta: 0
+    emc: 32
+paper:
+    id: 339
+    meta: 0
+    recipe:
+        - item: sugar_cane
+          qty: 1
+    qty_from_craft: 1
+book:
+    id: 340
+    meta: 0
+    recipe:
+        - item: paper
+          qty: 3
+    qty_from_craft: 1
+snow_ball:
+    id: 332
+    meta: 0
+    emc: 1
+glowstone_dust:
+    id: 348
+    meta: 0
+    emc: 384
+leather:
+    id: 334
+    meta: 0
+    emc: 64
+feather:
+    id: 288
+    meta: 0
+    emc: 48
+arrow:
+    id: 262
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 1
+        - item: feather
+          qty: 1
+        - item: flint
+          qty: 1
+    qty_from_craft: 1
+bowl:
+    id: 281
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 3
+    qty_from_craft: 1
+brown_mushroom:
+    id: 39
+    meta: 0
+    emc: 32
+red_mushroom:
+    id: 40
+    meta: 0
+    emc: 32
+gunpowder:
+    id: 289
+    meta: 0
+    emc: 192
+seeds:
+    id: 295
+    meta: 0
+    emc: 16
+wheat:
+    id: 296
+    meta: 0
+    emc: 24
+gold_nugget:
+    id: 371
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 0.11
+    qty_from_craft: 1
+sign:
+    id: 323
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 1
+        - item: planks
+          qty: 6
+    qty_from_craft: 1
+minecart:
+    id: 328
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 5
+    qty_from_craft: 1
+saddle:
+    id: 329
+    meta: 0
+    emc: 192
+boat:
+    id: 333
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 5
+    qty_from_craft: 1
+minecart_with_furnace:
+    id: 343
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: furnace
+          qty: 1
+    qty_from_craft: 1
+egg:
+    id: 344
+    meta: 0
+    emc: 32
+compass:
+    id: 345
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 4
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+clock:
+    id: 347
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 4
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+sugar:
+    id: 353
+    meta: 0
+    recipe:
+        - item: sugar_cane
+          qty: 1
+    qty_from_craft: 1
+map_item:
+    id: 358
+    meta: 0
+    recipe:
+        - item: paper
+          qty: 8
+        - item: compass
+          qty: 1
+    qty_from_craft: 1
+pumpkin_seeds:
+    id: 360
+    meta: 0
+    emc: 36
+melon_seeds:
+    id: 362
+    meta: 0
+    emc: 16
+ender_pearl:
+    id: 368
+    meta: 0
+    emc: 1024
+blaze_rod:
+    id: 369
+    meta: 0
+    emc: 1536
+ghast_teat:
+    id: 370
+    meta: 0
+    emc: 370
+nether_wart:
+    id: 372
+    meta: 0
+    emc: 24
+spider_eye:
+    id: 375
+    meta: 0
+    emc: 128
+blaze_powder:
+    id: 377
+    meta: 0
+    recipe:
+        - item: blaze_rod
+          qty: 0.5
+    qty_from_craft: 1
+magma_cream:
+    id: 378
+    meta: 0
+    recipe:
+        - item: slime_ball
+          qty: 1
+        - item: blaze_powder
+          qty: 1
+    qty_from_craft: 1
+eye_of_ender:
+    id: 381
+    meta: 0
+    recipe:
+        - item: ender_pearl
+          qty: 1
+        - item: blaze_powder
+          qty: 1
+    qty_from_craft: 1
+bone_meal:
+    id: 351
+    meta: 15
+    recipe:
+        - item: bone
+          qty: 0.33
+    qty_from_craft: 1
+ink_sac:
+    id: 351
+    meta: 0
+    emc: 8
+red:
+    id: 351
+    meta: 1
+    recipe:
+        - item: rose
+          qty: 0.5
+    qty_from_craft: 1
+green:
+    id: 351
+    meta: 2
+    recipe:
+        - item: cactus
+          qty: 1
+    qty_from_craft: 1
+cocoa_beans:
+    id: 351
+    meta: 3
+    emc: 128
+purple:
+    id: 351
+    meta: 5
+    recipe:
+        - item: red
+          qty: 0.5
+        - item: lapis
+          qty: 0.5
+    qty_from_craft: 1
+cyan:
+    id: 351
+    meta: 6
+    recipe:
+        - item: green
+          qty: 0.5
+        - item: lapis
+          qty: 0.5
+    qty_from_craft: 1
+light_grey:
+    id: 351
+    meta: 7
+    recipe:
+        - item: bone_meal
+          qty: 0.66
+        - item: ink_sac
+          qty: 0.33
+    qty_from_craft: 1
+grey:
+    id: 351
+    meta: 8
+    recipe:
+        - item: bone_meal
+          qty: 0.5
+        - item: ink_sac
+          qty: 0.5
+    qty_from_craft: 1
+pink:
+    id: 351
+    meta: 9
+    recipe:
+        - item: red
+          qty: 0.5
+        - item: bone_meal
+          qty: 0.5
+    qty_from_craft: 1
+lime:
+    id: 351
+    meta: 10
+    recipe:
+        - item: green
+          qty: 0.5
+        - item: bone_meal
+          qty: 0.5
+    qty_from_craft: 1
+yellow:
+    id: 351
+    meta: 11
+    recipe:
+        - item: flower
+          qty: 0.5
+    qty_from_craft: 1
+light_blue:
+    id: 351
+    meta: 12
+    recipe:
+        - item: bone_meal
+          qty: 0.5
+        - item: lapis
+          qty: 0.5
+    qty_from_craft: 1
+magenta:
+    id: 351
+    meta: 13
+    recipe:
+        - item: lapis
+          qty: 0.25
+        - item: red
+          qty: 0.5
+        - item: bone_meal
+          qty: 0.25
+    qty_from_craft: 1
+orange:
+    id: 351
+    meta: 14
+    recipe:
+        - item: red
+          qty: 0.5
+        - item: yellow
+          qty: 0.5
+    qty_from_craft: 1
+melon_slice:
+    id: 360
+    meta: 0
+    emc: 16
+apple:
+    id: 260
+    meta: 0
+    emc: 128
+mushroom_stew:
+    id: 282
+    meta: 0
+    recipe:
+        - item: bowl
+          qty: 1
+        - item: red_mushroom
+          qty: 1
+        - item: brown_mushroom
+          qty: 1
+    qty_from_craft: 1
+bread:
+    id: 297
+    meta: 0
+    recipe:
+        - item: wheat
+          qty: 3
+    qty_from_craft: 1
+raw_porkchop:
+    id: 319
+    meta: 0
+    emc: 64
+cooked_porkchop:
+    id: 320
+    meta: 0
+    recipe:
+        - item: raw_porkchop
+          qty: 1.3
+    qty_from_craft: 1
+raw_fish:
+    id: 349
+    meta: 0
+    emc: 64
+cooked_fish:
+    id: 350
+    meta: 0
+    recipe:
+        - item: raw_fish
+          qty: 1.3
+    qty_from_craft: 1
+raw_chicken:
+    id: 365
+    meta: 0
+    emc: 64
+cooked_chicken:
+    id: 366
+    meta: 0
+    recipe:
+        - item: raw_chicken
+          qty: 1.3
+    qty_from_craft: 1
+raw_beef:
+    id: 363
+    meta: 0
+    emc: 64
+cooked_beef:
+    id: 364
+    meta: 0
+    recipe:
+        - item: raw_beef
+          qty: 1.3
+    qty_from_craft: 1
+golden_apple:
+    id: 321
+    meta: 0
+    recipe:
+        - item: apple
+          qty: 1
+        - item: gold_nugget
+          qty: 8
+    qty_from_craft: 1
+cake:
+    id: 354
+    meta: 0
+    recipe:
+        - item: milk_bucket
+          qty: 3
+        - item: wheat
+          qty: 3
+        - item: sugar
+          qty: 2
+        - item: egg
+          qty: 1
+    qty_from_craft: 1
+cookie:
+    id: 357
+    meta: 0
+    recipe:
+        - item: wheat
+          qty: 0
+        - item: cocoa_beans
+          qty: 0.125
+    qty_from_craft: 1
+iron_ingot:
+    id: 265
+    meta: 0
+    recipe:
+        - item: iron_ore
+          qty: 1
+    qty_from_craft: 1
+gold_ingot:
+    id: 266
+    meta: 0
+    emc: 2046
+lapis:
+    id: 351
+    meta: 4
+    emc: 864
+diamond:
+    id: 264
+    meta: 0
+    recipe:
+        - item: diamond_ore
+          qty: 1
+    qty_from_craft: 1
+redstone:
+    id: 331
+    meta: 0
+    recipe:
+        - item: redstone_ore
+          qty: 1
+    qty_from_craft: 1
+coal:
+    id: 263
+    meta: 0
+    recipe:
+        - item: coal_ore
+          qty: 1
+    qty_from_craft: 1
+charcoal:
+    id: 263
+    meta: 1
+    emc: 32

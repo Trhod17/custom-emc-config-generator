@@ -1,0 +1,116 @@
+ic2_wrench:
+    id: 30183
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 6
+    qty_from_craft: 1
+chainsaw:
+    id: 30233
+    meta: 0
+    recipe:
+        - item: refined_iron
+          qty: 5
+        - item: electronic_circuit
+          qty: 1
+        - item: re_battery
+          qty: 1
+    qty_from_craft: 1
+electric_chainsaw:
+    id: 30124
+    meta: 0
+    recipe:
+        - item: tree_tap
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+        - item: re_battery
+          qty: 1
+    qty_from_craft: 1
+electric_hoe:
+    id: 30119
+    meta: 0
+    recipe:
+        - item: refined_iron
+          qty: 2
+        - item: electronic_circuit
+          qty: 1
+        - item: re_battery
+          qty: 1
+    qty_from_craft: 1
+electric_wrench:
+    id: 30140
+    meta: 0
+    recipe:
+        - item: electronic_circuit
+          qty: 1
+        - item: wrench
+          qty: 1
+        - item: re_battery
+          qty: 1
+    qty_from_craft: 1
+mining_drill:
+    id: 30235
+    meta: 0
+    recipe:
+        - item: refined_iron
+          qty: 5
+        - item: electronic_circuit
+          qty: 1
+        - item: re_battery
+          qty: 1
+    qty_from_craft: 1
+diamond_drill:
+    id: 30234
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 3
+        - item: mining_drill
+          qty: 1
+    qty_from_craft: 1
+bronze_pickaxe:
+    id: 278
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+bronze_axe:
+    id: 279
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+bronze_shovel:
+    id: 277
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+bronze_sword:
+    id: 276
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+bronze_hoe:
+    id: 293
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1

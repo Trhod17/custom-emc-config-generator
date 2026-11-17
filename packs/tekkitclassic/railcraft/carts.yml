@@ -1,0 +1,63 @@
+tnt_cart:
+    id: 7270
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: tnt
+          qty: 1
+    qty_from_craft: 1
+batbox_cart:
+    id: 7276
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: bat_box
+          qty: 1
+    qty_from_craft: 1
+mfe_cart:
+    id: 7307
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: mfe
+          qty: 1
+    qty_from_craft: 1
+mfsu_cart:
+    id: 7256
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: mfsu
+          qty: 1
+    qty_from_craft: 1
+work_cart:
+    id: 7281
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: crafting_table
+          qty: 1
+    qty_from_craft: 1
+anchor_cart:
+    id: 7303
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: world_anchor
+          qty: 1
+    qty_from_craft: 1
+tank_cart:
+    id: 7312
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: tank
+          qty: 1
+    qty_from_craft: 1

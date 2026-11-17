@@ -1,0 +1,301 @@
+sticky_resin:
+    id: 30217
+    meta: 0
+    emc: 24
+rubber:
+    id: 30216
+    meta: 0
+    recipe:
+        - item: sticky_resin
+          qty: 1.5
+    qty_from_craft: 1
+coal_dust:
+    id: 30256
+    meta: 0
+    recipe:
+        - item: coal
+          qty: 1
+    qty_from_craft: 1
+raw_carbon_fibre:
+    id: 30152
+    meta: 0
+    recipe:
+        - item: coal_dust
+          qty: 4
+    qty_from_craft: 1
+raw_carbon_mesh:
+    id: 30151
+    meta: 0
+    recipe:
+        - item: raw_carbon_fibre
+          qty: 2
+    qty_from_craft: 1
+uu_matter:
+    id: 30188
+    meta: 0
+    emc: 8192
+tin_ingot_ic2:
+    id: 30247
+    meta: 0
+    recipe:
+        - item: tin_ore
+          qty: 2
+    qty_from_craft: 1
+copper_ingot_ic2:
+    id: 30248
+    meta: 0
+    recipe:
+        - item: copper_ore
+          qty: 2
+    qty_from_craft: 1
+bronze_ingot:
+    id: 30246
+    meta: 0
+    recipe:
+        - item: copper_ingot
+          qty: 3
+        - item: tin_ingot
+          qty: 1
+    qty_from_craft: 1
+refined_iron:
+    id: 30249
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 1.5
+    qty_from_craft: 1
+uranium_ore_item:
+    id: 30243
+    meta: 0
+    emc: 2048
+refined_uranium:
+    id: 30244
+    meta: 0
+    recipe:
+        - item: uranium_ore_item
+          qty: 2
+    qty_from_craft: 1
+mixed_metal_ingot:
+    id: 30245
+    meta: 0
+    recipe:
+        - item: tin_ingot
+          qty: 3
+        - item: bronze_ingot
+          qty: 3
+        - item: refined_iron
+          qty: 3
+    qty_from_craft: 1
+carbon_plate:
+    id: 30150
+    meta: 0
+    recipe:
+        - item: raw_carbon_mesh
+          qty: 1
+    qty_from_craft: 1
+advanced_alloy:
+    id: 30187
+    meta: 0
+    recipe:
+        - item: mixed_metal_ingot
+          qty: 2
+    qty_from_craft: 1
+iridium_ore:
+    id: 30128
+    meta: 0
+    recipe:
+        - item: uu_matter
+          qty: 7
+    qty_from_craft: 1
+iridium_plate:
+    id: 30147
+    meta: 0
+    recipe:
+        - item: iridium_ore
+          qty: 4
+        - item: advanced_alloy
+          qty: 4
+        - item: diamond
+          qty: 1
+    qty_from_craft: 1
+overclocker_upgrade:
+    id: 30125
+    meta: 0
+    recipe:
+        - item: coolant_cell
+          qty: 3
+        - item: copper_cable
+          qty: 2
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+transformer_upgrade:
+    id: 30125
+    meta: 1
+    recipe:
+        - item: glass
+          qty: 5
+        - item: double_insulated_gold_cable
+          qty: 2
+        - item: mv_transformer
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+energy_storage_upgrade:
+    id: 30125
+    meta: 2
+    recipe:
+        - item: planks
+          qty: 5
+        - item: copper_cable
+          qty: 2
+        - item: re_battery
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+tree_tap:
+    id: 30212
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 5
+    qty_from_craft: 1
+machine_block:
+    id: 250
+    meta: 0
+    recipe:
+        - item: refined_iron
+          qty: 8
+    qty_from_craft: 1
+electronic_circuit:
+    id: 30191
+    meta: 0
+    recipe:
+        - item: copper_cable
+          qty: 6
+        - item: refined_iron
+          qty: 1
+        - item: redstone
+          qty: 2
+    qty_from_craft: 1
+advanced_machine_block:
+    id: 250
+    meta: 12
+    recipe:
+        - item: carbon_plate
+          qty: 2
+        - item: advanced_alloy
+          qty: 2
+        - item: machine_block
+          qty: 1
+    qty_from_craft: 1
+empty_cell:
+    id: 30237
+    meta: 0
+    recipe:
+        - item: tin_ingot
+          qty: 4
+    qty_from_craft: 16
+water_cell:
+    id: 30218
+    meta: 0
+    recipe:
+        - item: empty_cell
+          qty: 1
+        - item: water_bucket
+          qty: 1
+    qty_from_craft: 1
+lava_cell:
+    id: 30236
+    meta: 0
+    recipe:
+        - item: empty_cell
+          qty: 1
+        - item: lava_bucket
+          qty: 1
+    qty_from_craft: 1
+electrolyzed_water_cell:
+    id: 30181
+    meta: 0
+    recipe:
+        - item: water_bucket
+          qty: 2
+    qty_from_craft: 1
+coolant_cell:
+    id: 30206
+    meta: 0
+    recipe:
+        - item: water_cell
+          qty: 1
+    qty_from_craft: 1
+mining_pipe:
+    id: 245
+    meta: 0
+    recipe:
+        - item: refined_iron
+          qty: 6
+        - item: tree_tap
+          qty: 1
+    qty_from_craft: 1
+advanced_circuit:
+    id: 30190
+    meta: 0
+    recipe:
+        - item: electronic_circuit
+          qty: 1
+        - item: glowstone_dust
+          qty: 2
+        - item: lapis
+          qty: 2
+        - item: redstone
+          qty: 4
+    qty_from_craft: 1
+energy_crystal:
+    id: 30241
+    meta: 27
+    recipe:
+        - item: diamond
+          qty: 1
+        - item: redstone
+          qty: 8
+    qty_from_craft: 1
+lapotron_crystal:
+    id: 30240
+    meta: 27
+    recipe:
+        - item: electronic_circuit
+          qty: 2
+        - item: lapis
+          qty: 6
+        - item: energy_crystal
+          qty: 1
+    qty_from_craft: 1
+re_battery:
+    id: 30239
+    meta: 0
+    recipe:
+        - item: copper_cable
+          qty: 1
+        - item: redstone
+          qty: 2
+        - item: tin_ingot
+          qty: 6
+    qty_from_craft: 1
+crop:
+    id: 218
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 4
+    qty_from_craft: 2
+frequency_transmitter:
+    id: 30134
+    meta: 0
+    recipe:
+        - item: electronic_circuit
+          qty: 1
+        - item: copper_cable
+          qty: 1
+    qty_from_craft: 1

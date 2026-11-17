@@ -1,0 +1,705 @@
+coal_ore:
+    id: 16
+    meta: 0
+    emc: 128
+iron_ore:
+    id: 15
+    meta: 0
+    emc: 256
+gold_ore:
+    id: 14
+    meta: 0
+    emc: 2046
+lapis_ore:
+    id: 21
+    meta: 0
+    emc: 2592
+redstone_ore:
+    id: 73
+    meta: 0
+    emc: 64
+diamond_ore:
+    id: 56
+    meta: 0
+    emc: 8192
+sapling:
+    id: 6
+    meta: 0
+    emc: 32
+log:
+    id: 17
+    meta: 0
+    emc: 32
+planks:
+    id: 5
+    meta: 0
+    recipe:
+        - item: log
+          qty: 1
+    qty_from_craft: 4
+stone:
+    id: 1
+    meta: 0
+    emc: 1
+dirt:
+    id: 3
+    meta: 0
+    emc: 1
+cobblestone:
+    id: 4
+    meta: 0
+    emc: 1
+sand:
+    id: 12
+    meta: 0
+    emc: 1
+glass:
+    id: 20
+    meta: 0
+    recipe:
+        - item: sand
+          qty: 1
+    qty_from_craft: 1
+gravel:
+    id: 13
+    meta: 0
+    emc: 4
+sandstone:
+    id: 24
+    meta: 0
+    recipe:
+        - item: sand
+          qty: 4
+    qty_from_craft: 1
+note_block:
+    id: 25
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 8
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+stone_pressure_plate:
+    id: 70
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 2
+    qty_from_craft: 1
+wood_pressure_plate:
+    id: 72
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 2
+    qty_from_craft: 1
+flower:
+    id: 37
+    meta: 0
+    emc: 16
+rose:
+    id: 38
+    meta: 0
+    emc: 16
+stone_bricks:
+    id: 98
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 4
+    qty_from_craft: 1
+stone_slab:
+    id: 44
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 3
+    qty_from_craft: 6
+sandstone_slab:
+    id: 44
+    meta: 1
+    recipe:
+        - item: sandstone
+          qty: 3
+    qty_from_craft: 6
+wooden_slab:
+    id: 44
+    meta: 2
+    recipe:
+        - item: planks
+          qty: 3
+    qty_from_craft: 6
+cobblestone_slab:
+    id: 44
+    meta: 3
+    recipe:
+        - item: cobblestone
+          qty: 3
+    qty_from_craft: 6
+stone_brick_slab:
+    id: 44
+    meta: 5
+    recipe:
+        - item: stone_bricks
+          qty: 3
+    qty_from_craft: 6
+moss_stone:
+    id: 48
+    meta: 0
+    emc: 145
+obsidian:
+    id: 49
+    meta: 0
+    emc: 64
+wooden_stairs:
+    id: 53
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 6
+    qty_from_craft: 4
+stone_stairs:
+    id: 67
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 6
+    qty_from_craft: 4
+stone_brick_stairs:
+    id: 109
+    meta: 0
+    recipe:
+        - item: stone_bricks
+          qty: 6
+    qty_from_craft: 4
+button:
+    id: 77
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 2
+    qty_from_craft: 1
+ice:
+    id: 79
+    meta: 0
+    emc: 1
+cactus:
+    id: 81
+    meta: 0
+    emc: 8
+jukebox:
+    id: 84
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 8
+        - item: diamond
+          qty: 1
+    qty_from_craft: 1
+netherrack:
+    id: 87
+    meta: 0
+    emc: 1
+soul_sand:
+    id: 88
+    meta: 0
+    emc: 49
+glowstone:
+    id: 89
+    meta: 0
+    emc: 1536
+pumpkin:
+    id: 86
+    meta: 0
+    emc: 144
+trapdoor:
+    id: 96
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 3
+    qty_from_craft: 1
+door:
+    id: 324
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 6
+    qty_from_craft: 1
+iron_door:
+    id: 324
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 6
+    qty_from_craft: 1
+iron_bars:
+    id: 101
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 6
+    qty_from_craft: 1
+glass_panes:
+    id: 102
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+    qty_from_craft: 16
+nether_brick:
+    id: 112
+    meta: 0
+    emc: 4
+nether_brick_fence:
+    id: 85
+    meta: 0
+    recipe:
+        - item: nether_brick
+          qty: 6
+    qty_from_craft: 1
+nether_brick_stairs:
+    id: 53
+    meta: 0
+    recipe:
+        - item: nether_brick
+          qty: 6
+    qty_from_craft: 1
+end_stone:
+    id: 121
+    meta: 0
+    emc: 1
+dragon_egg:
+    id: 122
+    meta: 0
+    emc: 139264
+redstone_lamp:
+    id: 120
+    meta: 0
+    recipe:
+        - item: glowstone
+          qty: 1
+        - item: redstone
+          qty: 4
+    qty_from_craft: 1
+crafting_table:
+    id: 58
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 4
+    qty_from_craft: 1
+furnace:
+    id: 61
+    meta: 0
+    emc: 128
+lapis_block:
+    id: 22
+    meta: 0
+    recipe:
+        - item: lapis
+          qty: 9
+    qty_from_craft: 1
+iron_block:
+    id: 41
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 9
+    qty_from_craft: 1
+gold_block:
+    id: 42
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 9
+    qty_from_craft: 1
+diamond_block:
+    id: 57
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 9
+    qty_from_craft: 1
+tnt:
+    id: 46
+    meta: 0
+    recipe:
+        - item: gunpowder
+          qty: 5
+        - item: sand
+          qty: 4
+    qty_from_craft: 1
+wool:
+    id: 35
+    meta: 0
+    recipe:
+        - item: string
+          qty: 4
+    qty_from_craft: 1
+dispenser:
+    id: 23
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 7
+        - item: bow
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+rail:
+    id: 66
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 6
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+detector_rail:
+    id: 28
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 1
+        - item: stone_pressure_plate
+          qty: 0.166
+        - item: redstone
+          qty: 0.166
+    qty_from_craft: 1
+powered_rail:
+    id: 27
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 1
+        - item: stick
+          qty: 0.166
+        - item: redstone
+          qty: 0.166
+    qty_from_craft: 1
+piston:
+    id: 33
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 4
+        - item: planks
+          qty: 3
+        - item: iron_ingot
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+sticky_piston:
+    id: 29
+    meta: 0
+    recipe:
+        - item: piston
+          qty: 1
+        - item: slime_ball
+          qty: 1
+    qty_from_craft: 1
+orange_wool:
+    id: 35
+    meta: 1
+    recipe:
+        - item: wool
+          qty: 1
+        - item: orange
+          qty: 1
+    qty_from_craft: 1
+magenta_wool:
+    id: 35
+    meta: 2
+    recipe:
+        - item: wool
+          qty: 1
+        - item: magenta
+          qty: 1
+    qty_from_craft: 1
+light_blue_wool:
+    id: 35
+    meta: 3
+    recipe:
+        - item: wool
+          qty: 1
+        - item: light_blue
+          qty: 1
+    qty_from_craft: 1
+yellow_wool:
+    id: 35
+    meta: 4
+    recipe:
+        - item: wool
+          qty: 1
+        - item: yellow
+          qty: 1
+    qty_from_craft: 1
+lime_wool:
+    id: 35
+    meta: 5
+    recipe:
+        - item: wool
+          qty: 1
+        - item: green
+          qty: 1
+    qty_from_craft: 1
+pink_wool:
+    id: 35
+    meta: 6
+    recipe:
+        - item: wool
+          qty: 1
+        - item: pink
+          qty: 1
+    qty_from_craft: 1
+grey_wool:
+    id: 35
+    meta: 7
+    recipe:
+        - item: wool
+          qty: 1
+        - item: grey
+          qty: 1
+    qty_from_craft: 1
+light_grey_wool:
+    id: 35
+    meta: 8
+    recipe:
+        - item: wool
+          qty: 1
+        - item: light_grey
+          qty: 1
+    qty_from_craft: 1
+cyan_wool:
+    id: 35
+    meta: 9
+    recipe:
+        - item: wool
+          qty: 1
+        - item: cyan
+          qty: 1
+    qty_from_craft: 1
+purple_wool:
+    id: 35
+    meta: 10
+    recipe:
+        - item: wool
+          qty: 1
+        - item: purple
+          qty: 1
+    qty_from_craft: 1
+blue_wool:
+    id: 35
+    meta: 11
+    recipe:
+        - item: wool
+          qty: 1
+        - item: lapis
+          qty: 1
+    qty_from_craft: 1
+brown_wool:
+    id: 35
+    meta: 12
+    recipe:
+        - item: wool
+          qty: 1
+        - item: cocoa_beans
+          qty: 1
+    qty_from_craft: 1
+green_wool:
+    id: 35
+    meta: 13
+    recipe:
+        - item: wool
+          qty: 1
+        - item: green
+          qty: 1
+    qty_from_craft: 1
+red_wool:
+    id: 35
+    meta: 14
+    recipe:
+        - item: wool
+          qty: 1
+        - item: red
+          qty: 1
+    qty_from_craft: 1
+black_wool:
+    id: 35
+    meta: 15
+    recipe:
+        - item: wool
+          qty: 1
+        - item: ink_sac
+          qty: 1
+    qty_from_craft: 1
+bricks:
+    id: 45
+    meta: 0
+    recipe:
+        - item: brick
+          qty: 4
+    qty_from_craft: 1
+brick_slab:
+    id: 44
+    meta: 4
+    recipe:
+        - item: bricks
+          qty: 3
+    qty_from_craft: 6
+brick_stairs:
+    id: 108
+    meta: 0
+    recipe:
+        - item: bricks
+          qty: 6
+    qty_from_craft: 4
+bookshelf:
+    id: 47
+    meta: 0
+    recipe:
+        - item: book
+          qty: 3
+        - item: planks
+          qty: 6
+    qty_from_craft: 1
+ladder:
+    id: 65
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 7
+    qty_from_craft: 1
+lever:
+    id: 69
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 1
+        - item: cobblestone
+          qty: 1
+    qty_from_craft: 1
+torch:
+    id: 50
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 1
+        - item: coal
+          qty: 1
+    qty_from_craft: 1
+redstone_torch:
+    id: 76
+    meta: 0
+    recipe:
+        - item: redstone
+          qty: 1
+        - item: torch
+          qty: 1
+    qty_from_craft: 1
+snow_block:
+    id: 80
+    meta: 0
+    recipe:
+        - item: snow_ball
+          qty: 4
+    qty_from_craft: 1
+clay_block:
+    id: 82
+    meta: 0
+    recipe:
+        - item: clay
+          qty: 4
+    qty_from_craft: 1
+fence:
+    id: 85
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 6
+    qty_from_craft: 1
+jack_o_lantern:
+    id: 91
+    meta: 0
+    recipe:
+        - item: pumpkin
+          qty: 1
+        - item: torch
+          qty: 1
+    qty_from_craft: 1
+melon:
+    id: 103
+    meta: 0
+    recipe:
+        - item: melon_slice
+          qty: 9
+    qty_from_craft: 1
+fence_gate:
+    id: 107
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 2
+        - item: stick
+          qty: 4
+    qty_from_craft: 1
+enchantment_table:
+    id: 116
+    meta: 0
+    recipe:
+        - item: obsidian
+          qty: 4
+        - item: diamond
+          qty: 2
+        - item: book
+          qty: 1
+    qty_from_craft: 1
+bed:
+    id: 355
+    meta: 0
+    recipe:
+        - item: wool
+          qty: 3
+        - item: planks
+          qty: 3
+    qty_from_craft: 1
+redstone_repeater:
+    id: 356
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 1
+        - item: redstone_torch
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+painting:
+    id: 321
+    meta: 0
+    recipe:
+        - item: wool
+          qty: 1
+        - item: stick
+          qty: 8
+    qty_from_craft: 1
+chest:
+    id: 54
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 8
+    qty_from_craft: 1
+minecart_with_chest:
+    id: 342
+    meta: 0
+    recipe:
+        - item: minecart
+          qty: 1
+        - item: chest
+          qty: 1
+    qty_from_craft: 1

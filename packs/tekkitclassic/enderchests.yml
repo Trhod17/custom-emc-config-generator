@@ -1,0 +1,28 @@
+ender_chest:
+    id: 178
+    meta: 0
+    recipe:
+        - item: blaze_rod
+          qty: 4
+        - item: obsidian
+          qty: 2
+        - item: chest
+          qty: 1
+        - item: wool
+          qty: 1
+        - item: ender_pearl
+          qty: 1
+    qty_from_craft: 1
+ender_pouch:
+    id: 7493
+    meta: 0
+    recipe:
+        - item: blaze_powder
+          qty: 4
+        - item: leather
+          qty: 3
+        - item: wool
+          qty: 1
+        - item: ender_pearl
+          qty: 1
+    qty_from_craft: 1

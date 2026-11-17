@@ -1,0 +1,112 @@
+energy_link:
+    id: 190
+    meta: 4
+    recipe:
+        - item: advanced_alloy
+          qty: 2
+        - item: redstone
+          qty: 3
+        - item: copper_cable
+          qty: 1
+        - item: gold_gear
+          qty: 2
+        - item: wooden_conductive_pipe
+          qty: 1
+    qty_from_craft: 1
+engine_generator_lv:
+    id: 190
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 4
+        - item: redstone
+          qty: 2
+        - item: iron_gear
+          qty: 1
+        - item: lv_transformer
+          qty: 1
+        - item: redstone_engine
+          qty: 1
+    qty_from_craft: 1
+engine_generator_mv:
+    id: 190
+    meta: 1
+    recipe:
+        - item: gold_ingot
+          qty: 4
+        - item: redstone
+          qty: 2
+        - item: gold_gear
+          qty: 1
+        - item: mv_transformer
+          qty: 1
+        - item: steam_engine
+          qty: 1
+    qty_from_craft: 1
+engine_generator_hv:
+    id: 190
+    meta: 2
+    recipe:
+        - item: gold_ingot
+          qty: 4
+        - item: redstone
+          qty: 2
+        - item: diamond_gear
+          qty: 1
+        - item: hv_transformer
+          qty: 1
+        - item: combustion_engine
+          qty: 1
+    qty_from_craft: 1
+lava_fabricator:
+    id: 190
+    meta: 5
+    recipe:
+        - item: advanced_alloy
+          qty: 4
+        - item: tank
+          qty: 2
+        - item: furnace
+          qty: 1
+        - item: mass_fabricator
+          qty: 1
+        - item: gold_gear
+          qty: 1
+    qty_from_craft: 1
+oil_fabricator:
+    id: 190
+    meta: 3
+    recipe:
+        - item: advanced_alloy
+          qty: 4
+        - item: tank
+          qty: 2
+        - item: tnt
+          qty: 1
+        - item: mass_fabricator
+          qty: 1
+        - item: diamond_gear
+          qty: 1
+    qty_from_craft: 1
+water_strainer:
+    id: 190
+    meta: 7
+    recipe:
+        - item: tank
+          qty: 1
+        - item: water_mill
+          qty: 1
+        - item: iron_waterproof_pipe
+          qty: 1
+    qty_from_craft: 1
+jetpack_fueller:
+    id: 18156
+    meta: 0
+    recipe:
+        - item: wooden_waterproof_pipe
+          qty: 1
+        - item: rubber
+          qty: 1
+        - item: stick
+          qty: 1
+    qty_from_craft: 1

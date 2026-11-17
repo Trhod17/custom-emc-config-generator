@@ -1,0 +1,501 @@
+ruby_ore:
+    id: 140
+    meta: 0
+    emc: 1024
+emerald_ore:
+    id: 140
+    meta: 1
+    emc: 1024
+sapphire_ore:
+    id: 140
+    meta: 2
+    emc: 1024
+copper_ore:
+    id: 140
+    meta: 5
+    emc: 43
+silver_ore:
+    id: 140
+    meta: 3
+    emc: 256
+tin_ore:
+    id: 140
+    meta: 4
+    emc: 128
+tungsten_ore:
+    id: 140
+    meta: 6
+    emc: 16384
+nikolite_ore:
+    id: 140
+    meta: 7
+    emc: 128
+diamond_slab:
+    id: 136
+    meta: 4371
+    recipe:
+        - item: diamond_block
+          qty: 1
+    qty_from_craft: 2
+diamond_panel:
+    id: 136
+    meta: 4115
+    recipe:
+        - item: diamond_slab
+          qty: 1
+    qty_from_craft: 2
+iron_slab:
+    id: 136
+    meta: 4369
+    recipe:
+        - item: iron_block
+          qty: 1
+    qty_from_craft: 2
+iron_panel:
+    id: 136
+    meta: 4113
+    recipe:
+        - item: iron_slab
+          qty: 1
+    qty_from_craft: 2
+iron_panel_strip:
+    id: 136
+    meta: 5649
+    recipe:
+        - item: iron_panel
+          qty: 1
+    qty_from_craft: 2
+backplane:
+    id: 133
+    meta: 0
+    recipe:
+        - item: iron_bars
+          qty: 6
+        - item: gold_ingot
+          qty: 1
+        - item: fine_copper_wire
+          qty: 2
+    qty_from_craft: 1
+ram_module:
+    id: 133
+    meta: 1
+    recipe:
+        - item: iron_bars
+          qty: 4
+        - item: diamond_handsaw
+          qty: 1
+        - item: red_doped_wafer
+          qty: 4
+    qty_from_craft: 1
+monitor_rp2:
+    id: 134
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 3
+        - item: planks
+          qty: 3
+        - item: lime_lumar
+          qty: 1
+        - item: red_doped_wafer
+          qty: 1
+        - item: ribbon_cable
+          qty: 1
+    qty_from_craft: 1
+cpu:
+    id: 134
+    meta: 1
+    recipe:
+        - item: planks
+          qty: 5
+        - item: red_doped_wafer
+          qty: 2
+        - item: diamond_block
+          qty: 1
+        - item: ribbon_cable
+          qty: 1
+    qty_from_craft: 1
+disk_drive_rp2:
+    id: 134
+    meta: 2
+    recipe:
+        - item: planks
+          qty: 6
+        - item: blulectric_motor
+          qty: 1
+        - item: red_doped_wafer
+          qty: 1
+        - item: ribbon_cable
+          qty: 1
+    qty_from_craft: 1
+io_expander:
+    id: 148
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 6
+        - item: red_doped_wafer
+          qty: 1
+        - item: bundled_cable
+          qty: 1
+        - item: ribbon_cable
+          qty: 1
+    qty_from_craft: 1
+alloy_furnace:
+    id: 137
+    meta: 0
+    recipe:
+        - item: bricks
+          qty: 8
+    qty_from_craft: 1
+blulectric_furnace:
+    id: 137
+    meta: 1
+    recipe:
+        - item: clay_block
+          qty: 5
+        - item: iron_ingot
+          qty: 2
+        - item: blue_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+buffer:
+    id: 137
+    meta: 2
+    recipe:
+        - item: iron_bars
+          qty: 4
+        - item: planks
+          qty: 4
+    qty_from_craft: 1
+project_table:
+    id: 137
+    meta: 3
+    recipe:
+        - item: stone
+          qty: 3
+        - item: planks
+          qty: 4
+        - item: crafting_table
+          qty: 1
+        - item: chest
+          qty: 1
+    qty_from_craft: 1
+blulectric_alloy_furnace:
+    id: 137
+    meta: 4
+    recipe:
+        - item: bricks
+          qty: 5
+        - item: iron_ingot
+          qty: 1
+        - item: blue_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+deployer:
+    id: 150
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 6
+        - item: chest
+          qty: 1
+        - item: piston
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+block_breaker:
+    id: 150
+    meta: 1
+    recipe:
+        - item: cobblestone
+          qty: 6
+        - item: iron_pickaxe
+          qty: 1
+        - item: piston
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+transposer:
+    id: 150
+    meta: 2
+    recipe:
+        - item: cobblestone
+          qty: 5
+        - item: planks
+          qty: 2
+        - item: piston
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+filter:
+    id: 150
+    meta: 3
+    recipe:
+        - item: cobblestone
+          qty: 5
+        - item: gold_ingot
+          qty: 2
+        - item: piston
+          qty: 1
+        - item: red_doped_wafer
+          qty: 1
+    qty_from_craft: 1
+item_detector:
+    id: 150
+    meta: 4
+    recipe:
+        - item: pneumatic_tube
+          qty: 2
+        - item: brass_ingot
+          qty: 2
+        - item: red_doped_wafer
+          qty: 2
+        - item: planks
+          qty: 2
+        - item: wood_pressure_plate
+          qty: 1
+    qty_from_craft: 1
+sorting_machine:
+    id: 150
+    meta: 5
+    recipe:
+        - item: iron_ingot
+          qty: 7
+        - item: red_doped_wafer
+          qty: 2
+        - item: blue_alloy_ingot
+          qty: 1
+        - item: transposer
+          qty: 1
+    qty_from_craft: 1
+battery_box:
+    id: 150
+    meta: 6
+    recipe:
+        - item: bt_battery
+          qty: 4
+        - item: planks
+          qty: 1
+        - item: iron_ingot
+          qty: 3
+        - item: blue_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+frame_motor:
+    id: 150
+    meta: 7
+    recipe:
+        - item: iron_ingot
+          qty: 5
+        - item: brass_ingot
+          qty: 2
+        - item: blue_alloy_ingot
+          qty: 1
+        - item: blulectric_motor
+          qty: 1
+    qty_from_craft: 1
+retriever:
+    id: 150
+    meta: 8
+    recipe:
+        - item: brass_ingot
+          qty: 2
+        - item: leather
+          qty: 1
+        - item: ender_pearl
+          qty: 2
+        - item: transposer
+          qty: 1
+        - item: iron_ingot
+          qty: 2
+        - item: blue_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+regulator:
+    id: 150
+    meta: 10
+    recipe:
+        - item: brass_ingot
+          qty: 2
+        - item: buffer
+          qty: 2
+        - item: red_doped_wafer
+          qty: 2
+        - item: item_detector
+          qty: 1
+        - item: planks
+          qty: 2
+    qty_from_craft: 1
+thermopile:
+    id: 150
+    meta: 11
+    recipe:
+        - item: copper_ingot
+          qty: 4
+        - item: iron_ingot
+          qty: 2
+        - item: blue_alloy_ingot
+          qty: 1
+        - item: blue_doped_wafer
+          qty: 2
+    qty_from_craft: 1
+igniter:
+    id: 150
+    meta: 12
+    recipe:
+        - item: netherrack
+          qty: 2
+        - item: flint_and_steel
+          qty: 1
+        - item: cobblestone
+          qty: 4
+        - item: deployer
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+assembler:
+    id: 150
+    meta: 13
+    recipe:
+        - item: brass_ingot
+          qty: 2
+        - item: iron_ingot
+          qty: 3
+        - item: bundled_cable
+          qty: 2
+        - item: deployer
+          qty: 1
+        - item: red_doped_wafer
+          qty: 1
+    qty_from_craft: 1
+ejector:
+    id: 150
+    meta: 14
+    recipe:
+        - item: planks
+          qty: 4
+        - item: buffer
+          qty: 1
+        - item: transposer
+          qty: 1
+        - item: cobblestone
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+relay:
+    id: 150
+    meta: 15
+    recipe:
+        - item: planks
+          qty: 4
+        - item: buffer
+          qty: 1
+        - item: transposer
+          qty: 1
+        - item: cobblestone
+          qty: 2
+        - item: red_doped_wafer
+          qty: 1
+    qty_from_craft: 1
+solar_panel_rp2:
+    id: 151
+    meta: 0
+    recipe:
+        - item: blue_doped_wafer
+          qty: 8
+        - item: blue_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+pump_rp2:
+    id: 151
+    meta: 1
+    recipe:
+        - item: iron_ingot
+          qty: 5
+        - item: fluid_pipe
+          qty: 2
+        - item: blulectric_motor
+          qty: 1
+        - item: blue_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+accelerator:
+    id: 151
+    meta: 2
+    recipe:
+        - item: blue_alloy_ingot
+          qty: 4
+        - item: obsidian
+          qty: 4
+    qty_from_craft: 1
+grate:
+    id: 151
+    meta: 3
+    recipe:
+        - item: iron_bars
+          qty: 7
+        - item: fluid_pipe
+          qty: 1
+    qty_from_craft: 1
+support_frame:
+    id: 152
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 8
+        - item: brass_ingot
+          qty: 1
+    qty_from_craft: 1
+marble:
+    id: 142
+    meta: 0
+    emc: 1
+basalt:
+    id: 142
+    meta: 1
+    emc: 1
+marble_brick:
+    id: 142
+    meta: 2
+    recipe:
+        - item: marble
+          qty: 4
+    qty_from_craft: 4
+basalt_cobblestone:
+    id: 142
+    meta: 3
+    emc: 1
+basalt_brick:
+    id: 142
+    meta: 4
+    recipe:
+        - item: basalt
+          qty: 4
+    qty_from_craft: 4
+ruby_block:
+    id: 145
+    meta: 0
+    recipe:
+        - item: ruby
+          qty: 9
+    qty_from_craft: 1
+emerald_block:
+    id: 145
+    meta: 1
+    recipe:
+        - item: emerald
+          qty: 9
+    qty_from_craft: 1
+sapphire_block:
+    id: 145
+    meta: 2
+    recipe:
+        - item: sapphire
+          qty: 9
+    qty_from_craft: 1

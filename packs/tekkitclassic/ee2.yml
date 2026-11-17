@@ -1,0 +1,894 @@
+alchemical_coal:
+    id: 27539
+    meta: 0
+    recipe:
+        - item: coal
+          qty: 4
+    qty_from_craft: 1
+mobius_fuel:
+    id: 27540
+    meta: 0
+    recipe:
+        - item: alchemical_coal
+          qty: 4
+    qty_from_craft: 1
+aeternalis_fuel:
+    id: 27571
+    meta: 0
+    recipe:
+        - item: mobius_fuel
+          qty: 4
+    qty_from_craft: 1
+dark_matter:
+    id: 27541
+    meta: 0
+    recipe:
+        - item: aeternalis_fuel
+          qty: 8
+        - item: diamond_block
+          qty: 1
+    qty_from_craft: 1
+red_matter:
+    id: 27563
+    meta: 0
+    recipe:
+        - item: aeternalis_fuel
+          qty: 6
+        - item: dark_matter
+          qty: 3
+    qty_from_craft: 1
+covalence_dust_mk1:
+    id: 27542
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 8
+        - item: charcoal
+          qty: 1
+    qty_from_craft: 40
+covalence_dust_mk2:
+    id: 27542
+    meta: 1
+    recipe:
+        - item: iron_ingot
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 40
+covalence_dust_mk3:
+    id: 27542
+    meta: 2
+    recipe:
+        - item: diamond
+          qty: 1
+        - item: coal
+          qty: 1
+    qty_from_craft: 40
+talisman_of_repair:
+    id: 27554
+    meta: 0
+    recipe:
+        - item: covalence_dust_mk1
+          qty: 2
+        - item: covalence_dust_mk2
+          qty: 2
+        - item: covalence_dust_mk3
+          qty: 2
+        - item: string
+          qty: 2
+        - item: paper
+          qty: 1
+    qty_from_craft: 1
+philosophers_stone:
+    id: 27526
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 1
+        - item: redstone
+          qty: 4
+        - item: glowstone_dust
+          qty: 4
+    qty_from_craft: 1
+iron_band:
+    id: 27528
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 8
+        - item: lava_bucket
+          qty: 1
+    qty_from_craft: 1
+swiftwolfs_rending_gale:
+    id: 27536
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 4
+        - item: feather
+          qty: 4
+        - item: iron_band
+          qty: 1
+    qty_from_craft: 1
+archangels_smite:
+    id: 27534
+    meta: 0
+    recipe:
+        - item: bow
+          qty: 4
+        - item: feather
+          qty: 2
+        - item: dark_matter
+          qty: 2
+        - item: iron_band
+          qty: 1
+    qty_from_craft: 1
+black_hole_band:
+    id: 27532
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 2
+        - item: iron_ingot
+          qty: 8
+        - item: lava_bucket
+          qty: 1
+        - item: string
+          qty: 6
+    qty_from_craft: 1
+nova_catalyst:
+    id: 175
+    meta: 10
+    recipe:
+        - item: tnt
+          qty: 1
+        - item: mobius_fuel
+          qty: 1
+    qty_from_craft: 2
+nova_cataclysm:
+    id: 175
+    meta: 11
+    recipe:
+        - item: nova_catalyst
+          qty: 1
+        - item: aeternalis_fuel
+          qty: 1
+    qty_from_craft: 2
+destruction_catalyst:
+    id: 27527
+    meta: 0
+    recipe:
+        - item: nova_catalyst
+          qty: 4
+        - item: mobius_fuel
+          qty: 4
+        - item: flint_and_steel
+          qty: 1
+    qty_from_craft: 1
+evertide_amulet:
+    id: 27530
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 3
+        - item: water_bucket
+          qty: 6
+    qty_from_craft: 1
+volcanite_amulet:
+    id: 27531
+    meta: 0
+    recipe:
+        - item: lava_bucket
+          qty: 6
+        - item: dark_matter
+          qty: 3
+    qty_from_craft: 1
+soul_stone:
+    id: 27529
+    meta: 0
+    recipe:
+        - item: glowstone_dust
+          qty: 6
+        - item: red_matter
+          qty: 2
+        - item: lapis
+          qty: 1
+    qty_from_craft: 1
+body_stone:
+    id: 27588
+    meta: 0
+    recipe:
+        - item: sugar
+          qty: 6
+        - item: red_matter
+          qty: 2
+        - item: lapis
+          qty: 1
+    qty_from_craft: 1
+life_stone:
+    id: 27589
+    meta: 0
+    recipe:
+        - item: soul_stone
+          qty: 1
+        - item: body_stone
+          qty: 1
+    qty_from_craft: 1
+mind_stone:
+    id: 27590
+    meta: 0
+    recipe:
+        - item: book
+          qty: 6
+        - item: red_matter
+          qty: 2
+        - item: lapis
+          qty: 1
+    qty_from_craft: 1
+ring_of_ignition:
+    id: 27533
+    meta: 0
+    recipe:
+        - item: flint_and_steel
+          qty: 4
+        - item: dark_matter
+          qty: 2
+        - item: mobius_fuel
+          qty: 2
+        - item: iron_band
+          qty: 1
+    qty_from_craft: 1
+hyperkinetic_lens:
+    id: 27535
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 6
+        - item: dark_matter
+          qty: 2
+        - item: nova_catalyst
+          qty: 1
+    qty_from_craft: 1
+harvest_goddess_band:
+    id: 27537
+    meta: 0
+    recipe:
+        - item: sapling
+          qty: 4
+        - item: flower
+          qty: 1
+        - item: rose
+          qty: 1
+        - item: dark_matter
+          qty: 2
+        - item: iron_band
+          qty: 1
+    qty_from_craft: 1
+watch_of_flowing_time:
+    id: 27538
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 4
+        - item: obsidian
+          qty: 2
+        - item: glowstone
+          qty: 2
+        - item: clock
+          qty: 1
+    qty_from_craft: 1
+gem_of_eternal_destiny:
+    id: 27553
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 5
+        - item: obsidian
+          qty: 2
+        - item: dark_matter
+          qty: 2
+    qty_from_craft: 1
+catalytic_lens:
+    id: 27556
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 7
+        - item: destruction_catalyst
+          qty: 1
+        - item: hyperkinetic_lens
+          qty: 1
+    qty_from_craft: 1
+zero_ring:
+    id: 27574
+    meta: 0
+    recipe:
+        - item: snow_block
+          qty: 4
+        - item: snow_ball
+          qty: 2
+        - item: dark_matter
+          qty: 2
+        - item: iron_band
+          qty: 1
+    qty_from_craft: 1
+mercurial_eye:
+    id: 27583
+    meta: 0
+    recipe:
+        - item: bricks
+          qty: 5
+        - item: obsidian
+          qty: 2
+        - item: red_matter
+          qty: 1
+        - item: diamond
+          qty: 1
+    qty_from_craft: 1
+ring_of_arcana:
+    id: 27584
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 5
+        - item: ring_of_ignition
+          qty: 1
+        - item: zero_ring
+          qty: 1
+        - item: swiftwolfs_rending_gale
+          qty: 1
+        - item: harvest_goddess_band
+          qty: 1
+    qty_from_craft: 1
+klein_star_ein:
+    id: 27557
+    meta: 0
+    recipe:
+        - item: mobius_fuel
+          qty: 8
+        - item: diamond
+          qty: 1
+    qty_from_craft: 1
+klein_star_zwei:
+    id: 27558
+    meta: 0
+    recipe:
+        - item: klein_star_ein
+          qty: 4
+    qty_from_craft: 1
+klein_star_drei:
+    id: 27559
+    meta: 0
+    recipe:
+        - item: klein_star_zwei
+          qty: 4
+    qty_from_craft: 1
+klein_star_vier:
+    id: 27560
+    meta: 0
+    recipe:
+        - item: klein_star_drei
+          qty: 4
+    qty_from_craft: 1
+klein_star_sphere:
+    id: 27561
+    meta: 0
+    recipe:
+        - item: klein_star_vier
+          qty: 4
+    qty_from_craft: 1
+klein_star_omega:
+    id: 27591
+    meta: 0
+    recipe:
+        - item: klein_star_sphere
+          qty: 4
+    qty_from_craft: 1
+void_ring:
+    id: 27593
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 2
+        - item: black_hole_band
+          qty: 1
+        - item: gem_of_eternal_destiny
+          qty: 1
+    qty_from_craft: 1
+dark_matter_block:
+    id: 126
+    meta: 8
+    recipe:
+        - item: dark_matter
+          qty: 4
+    qty_from_craft: 1
+red_matter_block:
+    id: 126
+    meta: 9
+    recipe:
+        - item: red_matter
+          qty: 4
+    qty_from_craft: 1
+alchemical_chest:
+    id: 128
+    meta: 0
+    recipe:
+        - item: covalence_dust_mk1
+          qty: 1
+        - item: covalence_dust_mk2
+          qty: 1
+        - item: covalence_dust_mk3
+          qty: 1
+        - item: stone
+          qty: 2
+        - item: diamond
+          qty: 1
+        - item: iron_ingot
+          qty: 2
+        - item: chest
+          qty: 1
+    qty_from_craft: 1
+alchemy_bag:
+    id: 27562
+    meta: 0
+    recipe:
+        - item: covalence_dust_mk3
+          qty: 3
+        - item: alchemical_chest
+          qty: 1
+        - item: wool
+          qty: 5
+    qty_from_craft: 1
+energy_condenser:
+    id: 128
+    meta: 1
+    recipe:
+        - item: obsidian
+          qty: 4
+        - item: diamond
+          qty: 4
+        - item: alchemical_chest
+          qty: 1
+    qty_from_craft: 1
+energy_collector_mk1:
+    id: 126
+    meta: 0
+    recipe:
+        - item: glowstone
+          qty: 6
+        - item: glass
+          qty: 1
+        - item: furnace
+          qty: 1
+        - item: diamond_block
+          qty: 1
+    qty_from_craft: 1
+energy_collector_mk2:
+    id: 126
+    meta: 1
+    recipe:
+        - item: glowstone
+          qty: 7
+        - item: dark_matter
+          qty: 1
+        - item: energy_collector_mk1
+          qty: 1
+    qty_from_craft: 1
+energy_collector_mk3:
+    id: 126
+    meta: 2
+    recipe:
+        - item: glowstone
+          qty: 7
+        - item: red_matter
+          qty: 1
+        - item: energy_collector_mk2
+          qty: 1
+    qty_from_craft: 1
+energy_relay_mk1:
+    id: 126
+    meta: 5
+    recipe:
+        - item: obsidian
+          qty: 7
+        - item: diamond_block
+          qty: 1
+        - item: glass
+          qty: 1
+    qty_from_craft: 1
+energy_relay_mk2:
+    id: 126
+    meta: 6
+    recipe:
+        - item: obsidian
+          qty: 7
+        - item: energy_relay_mk1
+          qty: 1
+        - item: dark_matter
+          qty: 1
+    qty_from_craft: 1
+energy_relay_mk3:
+    id: 126
+    meta: 7
+    recipe:
+        - item: obsidian
+          qty: 7
+        - item: energy_relay_mk2
+          qty: 1
+        - item: red_matter
+          qty: 1
+    qty_from_craft: 1
+dark_matter_furnace:
+    id: 126
+    meta: 3
+    recipe:
+        - item: dark_matter_block
+          qty: 8
+        - item: furnace
+          qty: 1
+    qty_from_craft: 1
+red_matter_furnace:
+    id: 126
+    meta: 4
+    recipe:
+        - item: red_matter_block
+          qty: 3
+        - item: dark_matter_furnace
+          qty: 1
+    qty_from_craft: 1
+dm_pedestal:
+    id: 176
+    meta: 0
+    recipe:
+        - item: dark_matter_block
+          qty: 5
+        - item: red_matter
+          qty: 5
+    qty_from_craft: 1
+interdiction_torch:
+    id: 129
+    meta: 0
+    recipe:
+        - item: redstone_torch
+          qty: 2
+        - item: diamond
+          qty: 3
+        - item: glowstone_dust
+          qty: 3
+    qty_from_craft: 1
+transmutation_table:
+    id: 130
+    meta: 0
+    recipe:
+        - item: obsidian
+          qty: 4
+        - item: stone
+          qty: 4
+    qty_from_craft: 1
+transmutation_tablet:
+    id: 27592
+    meta: 0
+    recipe:
+        - item: dark_matter_block
+          qty: 4
+        - item: stone
+          qty: 4
+        - item: transmutation_table
+          qty: 1
+    qty_from_craft: 1
+alchemical_tome:
+    id: 27594
+    meta: 0
+    recipe:
+        - item: klein_star_omega
+          qty: 2
+        - item: covalence_dust_mk1
+          qty: 2
+        - item: covalence_dust_mk2
+          qty: 2
+        - item: covalence_dust_mk3
+          qty: 2
+        - item: book
+          qty: 1
+    qty_from_craft: 1
+dark_matter_helmet:
+    id: 27550
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 5
+    qty_from_craft: 1
+dark_matter_chestplate:
+    id: 27549
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 8
+    qty_from_craft: 1
+dark_matter_leggings:
+    id: 27551
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 7
+    qty_from_craft: 1
+dark_matter_boots:
+    id: 27552
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 4
+    qty_from_craft: 1
+red_matter_helmet:
+    id: 27576
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 5
+        - item: dark_matter_helmet
+          qty: 1
+    qty_from_craft: 1
+red_matter_chestplate:
+    id: 27575
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 8
+        - item: dark_matter_chestplate
+          qty: 1
+    qty_from_craft: 1
+red_matter_leggings:
+    id: 27577
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 7
+        - item: dark_matter_leggings
+          qty: 1
+    qty_from_craft: 1
+red_matter_boots:
+    id: 27578
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 4
+        - item: dark_matter_boots
+          qty: 1
+    qty_from_craft: 1
+abyss_helmet:
+    id: 27580
+    meta: 0
+    recipe:
+        - item: red_matter_helmet
+          qty: 1
+        - item: klein_star_omega
+          qty: 1
+        - item: soul_stone
+          qty: 1
+    qty_from_craft: 1
+infernal_armour:
+    id: 27579
+    meta: 0
+    recipe:
+        - item: red_matter_chestplate
+          qty: 1
+        - item: klein_star_omega
+          qty: 1
+        - item: body_stone
+          qty: 1
+    qty_from_craft: 1
+gravity_greaves:
+    id: 27581
+    meta: 0
+    recipe:
+        - item: red_matter_leggings
+          qty: 1
+        - item: gem_of_eternal_destiny
+          qty: 1
+        - item: klein_star_omega
+          qty: 1
+        - item: watch_of_flowing_time
+          qty: 1
+    qty_from_craft: 1
+hurricane_boots:
+    id: 27582
+    meta: 0
+    recipe:
+        - item: red_matter_boots
+          qty: 1
+        - item: klein_star_omega
+          qty: 1
+        - item: swiftwolfs_rending_gale
+          qty: 2
+    qty_from_craft: 1
+dark_matter_pickaxe:
+    id: 27543
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 3
+        - item: diamond
+          qty: 2
+    qty_from_craft: 1
+dark_matter_axe:
+    id: 27547
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 3
+        - item: diamond
+          qty: 2
+    qty_from_craft: 1
+dark_matter_shovel:
+    id: 27544
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 1
+        - item: diamond
+          qty: 2
+    qty_from_craft: 1
+dark_matter_sword:
+    id: 27546
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 2
+        - item: diamond
+          qty: 1
+    qty_from_craft: 1
+dark_matter_hoe:
+    id: 27545
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 2
+        - item: diamond
+          qty: 2
+    qty_from_craft: 1
+dark_matter_shears:
+    id: 27548
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 1
+        - item: diamond
+          qty: 1
+    qty_from_craft: 1
+dark_matter_hammer:
+    id: 27555
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 2
+        - item: diamond
+          qty: 3
+    qty_from_craft: 1
+red_matter_pickaxe:
+    id: 27564
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 1
+        - item: dark_matter_pickaxe
+          qty: 1
+        - item: red_matter
+          qty: 3
+    qty_from_craft: 1
+red_matter_axe:
+    id: 27568
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 1
+        - item: dark_matter_axe
+          qty: 1
+        - item: red_matter
+          qty: 3
+    qty_from_craft: 1
+red_matter_shovel:
+    id: 27565
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 1
+        - item: dark_matter_shovel
+          qty: 1
+        - item: red_matter
+          qty: 1
+    qty_from_craft: 1
+red_matter_sword:
+    id: 27567
+    meta: 0
+    recipe:
+        - item: dark_matter_sword
+          qty: 1
+        - item: red_matter
+          qty: 2
+    qty_from_craft: 1
+red_matter_hoe:
+    id: 27566
+    meta: 0
+    recipe:
+        - item: dark_matter
+          qty: 1
+        - item: dark_matter_hoe
+          qty: 1
+        - item: red_matter
+          qty: 2
+    qty_from_craft: 1
+red_matter_shears:
+    id: 27569
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 1
+        - item: dark_matter_shears
+          qty: 1
+    qty_from_craft: 1
+red_matter_hammer:
+    id: 27570
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 2
+        - item: dark_matter
+          qty: 2
+        - item: dark_matter_hammer
+          qty: 1
+    qty_from_craft: 1
+red_matter_katar:
+    id: 27572
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 5
+        - item: red_matter_shears
+          qty: 1
+        - item: red_matter_axe
+          qty: 1
+        - item: red_matter_sword
+          qty: 1
+        - item: red_matter_hoe
+          qty: 1
+    qty_from_craft: 1
+red_matter_morning_star:
+    id: 27573
+    meta: 0
+    recipe:
+        - item: red_matter
+          qty: 6
+        - item: red_matter_hammer
+          qty: 1
+        - item: red_matter_pickaxe
+          qty: 1
+        - item: red_matter_shovel
+          qty: 1
+    qty_from_craft: 1
+diving_rod_mk1:
+    id: 27585
+    meta: 0
+    recipe:
+        - item: covalence_dust_mk1
+          qty: 8
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+diving_rod_mk2:
+    id: 27585
+    meta: 1
+    recipe:
+        - item: covalence_dust_mk2
+          qty: 8
+        - item: diving_rod_mk1
+          qty: 1
+    qty_from_craft: 1
+diving_rod_mk3:
+    id: 27585
+    meta: 2
+    recipe:
+        - item: covalence_dust_mk3
+          qty: 8
+        - item: diving_rod_mk2
+          qty: 1
+    qty_from_craft: 1

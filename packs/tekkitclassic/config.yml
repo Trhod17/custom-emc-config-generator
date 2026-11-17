@@ -1,0 +1,74 @@
+#Config Name
+name: Tekkit Classic
+#Config Pack ID
+cpid: tekkitclassic
+#Modpack Version
+modpack_version: 3.1.2
+#List of Mods
+mods:
+    #Mod Entry
+    minecraft:
+        #Mod EMC file name
+        configs:
+            - minecraft/blocks
+            - minecraft/items
+            - minecraft/armor
+            - minecraft/tools
+        version: 1.2.5
+    buildcraft:
+        configs:
+            - buildcraft/items
+            - buildcraft/blocks
+        version: 2.2.14
+    computercraft:
+        configs:
+            - computercraft
+        version: 1.33
+    ccsensors:
+        configs:
+            - ccsensors
+        version: B017pr1
+    ee2:
+        configs:
+            - ee2
+        name: EE2
+        version: 1.4.6.0
+    ic2:
+        configs:
+            - ic2/items
+            - ic2/blocks
+            - ic2/tools
+            - ic2/armour
+        version: 1.97
+    redpower2:
+        configs:
+            - redpower2/items
+            - redpower2/blocks
+            - redpower2/cables
+            - redpower2/lamps
+            - redpower2/logic
+            - redpower2/tools
+        version: 2.0pr5b2
+    enderstorage:
+        configs:
+            - enderchests
+        version: 1.1.3
+    ironchests:
+        configs:
+            - ironchests
+        version: 3.8.0.40
+    powerconverters:
+        configs:
+            - powerconverters
+        version: 1.3.4
+    railcraft:
+        configs:
+            - railcraft/items
+            - railcraft/blocks
+            - railcraft/rails
+            - railcraft/carts
+        version: 5.3.3
+printers:
+    - customemc
+    - tekkitrestrict
+    - essentials

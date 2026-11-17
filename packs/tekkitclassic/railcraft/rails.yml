@@ -1,0 +1,52 @@
+boarding_track:
+    id: 206
+    meta: 0
+    recipe:
+        - item: advanced_rail
+          qty: 6
+        - item: redstone
+          qty: 1
+        - item: stone_pressure_plate
+          qty: 1
+        - item: wooden_railbed
+          qty: 1
+    qty_from_craft: 8
+holding_track:
+    id: 206
+    meta: 1
+    recipe:
+        - item: advanced_rail
+          qty: 6
+        - item: redstone
+          qty: 1
+        - item: stone_pressure_plate
+          qty: 1
+        - item: wooden_railbed
+          qty: 1
+    qty_from_craft: 8
+one_way_track:
+    id: 206
+    meta: 2
+    recipe:
+        - item: standard_rail
+          qty: 6
+        - item: wooden_railbed
+          qty: 1
+        - item: piston
+          qty: 1
+        - item: stone_pressure_plate
+          qty: 1
+    qty_from_craft: 8
+control_track:
+    id: 206
+    meta: 3
+    recipe:
+        - item: standard_rail
+          qty: 4
+        - item: advanced_rail
+          qty: 2
+        - item: redstone
+          qty: 2
+        - item: wooden_railbed
+          qty: 1
+    qty_from_craft: 16

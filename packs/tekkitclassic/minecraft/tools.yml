@@ -1,0 +1,259 @@
+diamond_pickaxe:
+    id: 278
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+diamond_axe:
+    id: 279
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+diamond_shovel:
+    id: 277
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+diamond_sword:
+    id: 276
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+diamond_hoe:
+    id: 293
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+gold_pickaxe:
+    id: 285
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+gold_axe:
+    id: 286
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+gold_shovel:
+    id: 284
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+gold_sword:
+    id: 283
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+gold_hoe:
+    id: 294
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+iron_pickaxe:
+    id: 257
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+iron_axe:
+    id: 258
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+iron_shovel:
+    id: 256
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+iron_sword:
+    id: 266
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+iron_hoe:
+    id: 292
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+stone_pickaxe:
+    id: 274
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+stone_axe:
+    id: 275
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+stone_shovel:
+    id: 273
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+stone_sword:
+    id: 272
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+stone_hoe:
+    id: 291
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+wooden_pickaxe:
+    id: 270
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+wooden_axe:
+    id: 271
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+wooden_shovel:
+    id: 269
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+wooden_sword:
+    id: 268
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+wooden_hoe:
+    id: 290
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+shears:
+    id: 359
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 2
+    qty_from_craft: 1
+flint_and_steel:
+    id: 259
+    meta: 0
+    recipe:
+        - item: flint
+          qty: 1
+        - item: iron_ingot
+          qty: 1
+    qty_from_craft: 1
+bow:
+    id: 261
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: string
+          qty: 3
+    qty_from_craft: 1
+fishing_rod:
+    id: 346
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: string
+          qty: 2
+    qty_from_craft: 1

@@ -1,0 +1,76 @@
+computer:
+    id: 207
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 7
+        - item: redstone
+          qty: 1
+        - item: glass_panes
+          qty: 1
+    qty_from_craft: 1
+disk_drive:
+    id: 208
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 7
+        - item: redstone
+          qty: 2
+    qty_from_craft: 1
+modem:
+    id: 208
+    meta: 1
+    recipe:
+        - item: stone
+          qty: 8
+        - item: redstone_torch
+          qty: 1
+    qty_from_craft: 1
+monitor:
+    id: 208
+    meta: 2
+    recipe:
+        - item: stone
+          qty: 8
+        - item: glass_panes
+          qty: 1
+    qty_from_craft: 1
+turtle:
+    id: 216
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 7
+        - item: computer
+          qty: 1
+        - item: chest
+          qty: 1
+    qty_from_craft: 1
+mining_turtle:
+    id: 216
+    meta: 1
+    recipe:
+        - item: turtle
+          qty: 1
+        - item: diamond_pickaxe
+          qty: 1
+    qty_from_craft: 1
+wireless_turtle:
+    id: 216
+    meta: 2
+    recipe:
+        - item: turtle
+          qty: 7
+        - item: modem
+          qty: 1
+    qty_from_craft: 1
+wireless_mining_turtle:
+    id: 216
+    meta: 3
+    recipe:
+        - item: wireless_turtle
+          qty: 1
+        - item: diamond_pickaxe
+          qty: 1
+    qty_from_craft: 1

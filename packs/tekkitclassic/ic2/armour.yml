@@ -1,0 +1,142 @@
+rubber_boots:
+    id: 30211
+    meta: 0
+    recipe:
+        - item: rubber
+          qty: 6
+        - item: wool
+          qty: 1
+    qty_from_craft: 1
+static_boots:
+    id: 30115
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 4
+        - item: wool
+          qty: 1
+        - item: copper_cable
+          qty: 3
+    qty_from_craft: 1
+bronze_helmet:
+    id: 310
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 5
+    qty_from_craft: 1
+bronze_chestplate:
+    id: 311
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 8
+    qty_from_craft: 1
+bronze_leggings:
+    id: 312
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 7
+    qty_from_craft: 1
+bronze_boots:
+    id: 313
+    meta: 0
+    recipe:
+        - item: bronze_ingot
+          qty: 4
+    qty_from_craft: 1
+nano_helmet:
+    id: 30178
+    meta: 0
+    recipe:
+        - item: carbon_plate
+          qty: 4
+        - item: energy_crystal
+          qty: 1
+        - item: glass
+          qty: 1
+    qty_from_craft: 1
+nano_chestplate:
+    id: 30177
+    meta: 0
+    recipe:
+        - item: carbon_plate
+          qty: 7
+        - item: energy_crystal
+          qty: 1
+    qty_from_craft: 1
+nano_leggings:
+    id: 30176
+    meta: 0
+    recipe:
+        - item: carbon_plate
+          qty: 6
+        - item: energy_crystal
+          qty: 1
+    qty_from_craft: 1
+nano_boots:
+    id: 30175
+    meta: 0
+    recipe:
+        - item: carbon_plate
+          qty: 4
+        - item: energy_crystal
+          qty: 1
+    qty_from_craft: 1
+quantum_helmet:
+    id: 30174
+    meta: 0
+    recipe:
+        - item: iridium_plate
+          qty: 4
+        - item: lapotron_crystal
+          qty: 1
+        - item: glass
+          qty: 1
+        - item: advanced_circuit
+          qty: 2
+        - item: nano_helmet
+          qty: 1
+    qty_from_craft: 1
+quantum_chestplate:
+    id: 30173
+    meta: 0
+    recipe:
+        - item: carbon_plate
+          qty: 3
+        - item: lapotron_crystal
+          qty: 1
+        - item: iridium_plate
+          qty: 4
+        - item: nano_chestplate
+          qty: 1
+    qty_from_craft: 1
+quantum_leggings:
+    id: 30172
+    meta: 0
+    recipe:
+        - item: iridium_plate
+          qty: 2
+        - item: lapotron_crystal
+          qty: 1
+        - item: machine_block
+          qty: 2
+        - item: glowstone_dust
+          qty: 2
+        - item: nano_leggings
+          qty: 1
+    qty_from_craft: 1
+quantum_boots:
+    id: 30171
+    meta: 0
+    recipe:
+        - item: iridium_plate
+          qty: 2
+        - item: lapotron_crystal
+          qty: 1
+        - item: nano_boots
+          qty: 1
+        - item: rubber_boots
+          qty: 2
+    qty_from_craft: 1

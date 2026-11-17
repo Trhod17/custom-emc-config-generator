@@ -1,0 +1,507 @@
+copper_ore_ic2:
+    id: 249
+    meta: 0
+    emc: 42
+tin_ore_ic2:
+    id: 248
+    meta: 0
+    emc: 128
+uranium_ore:
+    id: 247
+    meta: 0
+    emc: 1024
+copper_cable:
+    id: 30184
+    meta: 0
+    recipe:
+        - item: copper_ingot
+          qty: 3
+        - item: rubber
+          qty: 6
+    qty_from_craft: 6
+uninsulated_copper_cable:
+    id: 30184
+    meta: 1
+    recipe:
+        - item: copper_ingot
+          qty: 3
+    qty_from_craft: 6
+gold_cable:
+    id: 30184
+    meta: 2
+    recipe:
+        - item: gold_ingot
+          qty: 3
+    qty_from_craft: 12
+double_insulated_gold_cable:
+    id: 30184
+    meta: 3
+    recipe:
+        - item: gold_cable
+          qty: 1
+        - item: rubber
+          qty: 2
+    qty_from_craft: 1
+hv_cable:
+    id: 30184
+    meta: 5
+    recipe:
+        - item: refined_iron
+          qty: 3
+    qty_from_craft: 12
+quadruple_insulated_hv_cable:
+    id: 30184
+    meta: 8
+    recipe:
+        - item: rubber
+          qty: 3
+        - item: hv_cable
+          qty: 1
+    qty_from_craft: 1
+glass_fibre_cable:
+    id: 30184
+    meta: 9
+    recipe:
+        - item: diamond
+          qty: 1
+        - item: redstone
+          qty: 2
+        - item: glass
+          qty: 6
+    qty_from_craft: 4
+reinforced_glass:
+    id: 230
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 7
+        - item: advanced_alloy
+          qty: 2
+    qty_from_craft: 7
+scaffold:
+    id: 220
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: planks
+          qty: 3
+    qty_from_craft: 16
+macerator:
+    id: 250
+    meta: 3
+    recipe:
+        - item: flint
+          qty: 3
+        - item: stone
+          qty: 2
+        - item: machine_block
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+rotary_macerator:
+    id: 188
+    meta: 0
+    recipe:
+        - item: refined_iron
+          qty: 7
+        - item: macerator
+          qty: 1
+        - item: advanced_machine_block
+          qty: 1
+    qty_from_craft: 1
+iron_furnace:
+    id: 250
+    meta: 1
+    recipe:
+        - item: iron_ingot
+          qty: 8
+    qty_from_craft: 1
+electric_furnace:
+    id: 250
+    meta: 2
+    recipe:
+        - item: iron_furnace
+          qty: 1
+        - item: redstone
+          qty: 2
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+induction_furnace:
+    id: 250
+    meta: 13
+    recipe:
+        - item: copper_ingot
+          qty: 7
+        - item: electric_furnace
+          qty: 1
+        - item: advanced_machine_block
+          qty: 1
+    qty_from_craft: 1
+extractor:
+    id: 250
+    meta: 4
+    recipe:
+        - item: tree_tap
+          qty: 4
+        - item: machine_block
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+centrifuge_extractor:
+    id: 188
+    meta: 2
+    recipe:
+        - item: electrolyzed_water_cell
+          qty: 7
+        - item: extractor
+          qty: 1
+        - item: advanced_machine_block
+          qty: 1
+    qty_from_craft: 1
+compressor:
+    id: 250
+    meta: 5
+    recipe:
+        - item: stone
+          qty: 6
+        - item: machine_block
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+singularity_compressor:
+    id: 188
+    meta: 1
+    recipe:
+        - item: obsidian
+          qty: 7
+        - item: compressor
+          qty: 1
+        - item: advanced_machine_block
+          qty: 1
+    qty_from_craft: 1
+canning_machine:
+    id: 250
+    meta: 6
+    recipe:
+        - item: tin_ingot
+          qty: 7
+        - item: electronic_circuit
+          qty: 1
+        - item: machine_block
+          qty: 1
+    qty_from_craft: 1
+electrolyzer:
+    id: 250
+    meta: 10
+    recipe:
+        - item: copper_cable
+          qty: 4
+        - item: electronic_circuit
+          qty: 1
+        - item: machine_block
+          qty: 1
+        - item: empty_cell
+          qty: 2
+    qty_from_craft: 1
+pump:
+    id: 250
+    meta: 8
+    recipe:
+        - item: empty_cell
+          qty: 4
+        - item: electronic_circuit
+          qty: 1
+        - item: machine_block
+          qty: 1
+        - item: mining_pipe
+          qty: 2
+        - item: tree_tap
+          qty: 1
+    qty_from_craft: 1
+miner:
+    id: 250
+    meta: 7
+    recipe:
+        - item: electronic_circuit
+          qty: 2
+        - item: machine_block
+          qty: 1
+        - item: mining_pipe
+          qty: 2
+    qty_from_craft: 1
+recycler:
+    id: 250
+    meta: 11
+    recipe:
+        - item: glowstone_dust
+          qty: 1
+        - item: dirt
+          qty: 3
+        - item: compressor
+          qty: 1
+        - item: refined_iron
+          qty: 2
+    qty_from_craft: 1
+mass_fabricator:
+    id: 250
+    meta: 14
+    recipe:
+        - item: glowstone_dust
+          qty: 4
+        - item: advanced_machine_block
+          qty: 2
+        - item: advanced_circuit
+          qty: 2
+        - item: lapotron_crystal
+          qty: 1
+    qty_from_craft: 1
+charging_bench_mk1:
+    id: 187
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 5
+        - item: uninsulated_copper_cable
+          qty: 3
+    qty_from_craft: 1
+charging_bench_mk2:
+    id: 187
+    meta: 1
+    recipe:
+        - item: planks
+          qty: 5
+        - item: gold_cable
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+charging_bench_mk3:
+    id: 187
+    meta: 2
+    recipe:
+        - item: planks
+          qty: 5
+        - item: hv_cable
+          qty: 12
+        - item: advanced_circuit
+          qty: 1
+    qty_from_craft: 1
+personal_safe:
+    id: 225
+    meta: 0
+    recipe:
+        - item: electronic_circuit
+          qty: 1
+        - item: machine_block
+          qty: 1
+        - item: chest
+          qty: 1
+    qty_from_craft: 1
+trade_o_mat:
+    id: 225
+    meta: 1
+    recipe:
+        - item: redstone
+          qty: 3
+        - item: machine_block
+          qty: 1
+        - item: chest
+          qty: 2
+    qty_from_craft: 1
+bat_box:
+    id: 227
+    meta: 0
+    recipe:
+        - item: re_battery
+          qty: 3
+        - item: planks
+          qty: 5
+        - item: copper_cable
+          qty: 1
+    qty_from_craft: 1
+mfe:
+    id: 227
+    meta: 1
+    recipe:
+        - item: double_insulated_gold_cable
+          qty: 4
+        - item: energy_crystal
+          qty: 4
+        - item: machine_block
+          qty: 1
+    qty_from_craft: 1
+mfsu:
+    id: 227
+    meta: 2
+    recipe:
+        - item: lapotron_crystal
+          qty: 6
+        - item: advanced_machine_block
+          qty: 1
+        - item: mfe
+          qty: 1
+        - item: advanced_circuit
+          qty: 1
+    qty_from_craft: 1
+lv_transformer:
+    id: 227
+    meta: 3
+    recipe:
+        - item: planks
+          qty: 4
+        - item: copper_ingot
+          qty: 3
+        - item: copper_cable
+          qty: 2
+    qty_from_craft: 1
+mv_transformer:
+    id: 227
+    meta: 4
+    recipe:
+        - item: double_insulated_gold_cable
+          qty: 2
+        - item: machine_block
+          qty: 1
+    qty_from_craft: 1
+hv_transformer:
+    id: 227
+    meta: 5
+    recipe:
+        - item: quadruple_insulated_hv_cable
+          qty: 2
+        - item: mv_transformer
+          qty: 1
+        - item: electronic_circuit
+          qty: 1
+        - item: energy_crystal
+          qty: 1
+    qty_from_craft: 1
+generator:
+    id: 246
+    meta: 0
+    recipe:
+        - item: iron_furnace
+          qty: 1
+        - item: refined_iron
+          qty: 3
+        - item: re_battery
+          qty: 1
+    qty_from_craft: 1
+geothermal_generator:
+    id: 246
+    meta: 1
+    recipe:
+        - item: glass
+          qty: 4
+        - item: empty_cell
+          qty: 2
+        - item: refined_iron
+          qty: 2
+        - item: generator
+          qty: 1
+    qty_from_craft: 1
+solar_panel:
+    id: 246
+    meta: 3
+    recipe:
+        - item: coal_dust
+          qty: 3
+        - item: glass
+          qty: 3
+        - item: generator
+          qty: 1
+        - item: electronic_circuit
+          qty: 2
+    qty_from_craft: 1
+lv_solar_array:
+    id: 183
+    meta: 0
+    recipe:
+        - item: solar_panel
+          qty: 8
+        - item: lv_transformer
+          qty: 1
+    qty_from_craft: 1
+mv_solar_array:
+    id: 183
+    meta: 1
+    recipe:
+        - item: lv_solar_array
+          qty: 8
+        - item: mv_transformer
+          qty: 1
+    qty_from_craft: 1
+hv_solar_array:
+    id: 183
+    meta: 2
+    recipe:
+        - item: mv_solar_array
+          qty: 8
+        - item: hv_transformer
+          qty: 1
+    qty_from_craft: 1
+crop_matron:
+    id: 223
+    meta: 2
+    recipe:
+        - item: electronic_circuit
+          qty: 2
+        - item: chest
+          qty: 1
+        - item: crop
+          qty: 5
+        - item: machine_block
+          qty: 1
+    qty_from_craft: 1
+teleporter:
+    id: 223
+    meta: 0
+    recipe:
+        - item: advanced_circuit
+          qty: 4
+        - item: glass_fibre_cable
+          qty: 2
+        - item: diamond
+          qty: 1
+        - item: advanced_machine_block
+          qty: 1
+        - item: frequency_transmitter
+          qty: 1
+    qty_from_craft: 1
+telsa_coil:
+    id: 223
+    meta: 1
+    recipe:
+        - item: redstone
+          qty: 5
+        - item: mv_transformer
+          qty: 1
+        - item: refined_iron
+          qty: 2
+        - item: electronic_circuit
+          qty: 1
+    qty_from_craft: 1
+windmill:
+    id: 246
+    meta: 4
+    recipe:
+        - item: iron_ingot
+          qty: 4
+        - item: generator
+          qty: 1
+    qty_from_craft: 1
+water_mill:
+    id: 246
+    meta: 2
+    recipe:
+        - item: stick
+          qty: 4
+        - item: planks
+          qty: 4
+        - item: generator
+          qty: 1

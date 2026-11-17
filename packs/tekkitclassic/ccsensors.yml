@@ -1,0 +1,143 @@
+redstone_computer_chip:
+    id: 1494
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 6
+        - item: redstone
+          qty: 3
+    qty_from_craft: 1
+iron_computer_chip:
+    id: 1494
+    meta: 1
+    recipe:
+        - item: stick
+          qty: 6
+        - item: redstone_computer_chip
+          qty: 2
+        - item: iron_ingot
+          qty: 1
+    qty_from_craft: 1
+blank_sensor_card:
+    id: 1492
+    meta: 0
+    recipe:
+        - item: paper
+          qty: 8
+        - item: redstone_computer_chip
+          qty: 1
+    qty_from_craft: 1
+sensor:
+    id: 215
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 1
+        - item: redstone_computer_chip
+          qty: 1
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+blank_transmitter_card:
+    id: 1493
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 5
+        - item: redstone_torch
+          qty: 2
+        - item: redstone_computer_chip
+          qty: 1
+    qty_from_craft: 1
+sensor_controller:
+    id: 215
+    meta: 1
+    recipe:
+        - item: cobblestone
+          qty: 4
+        - item: iron_computer_chip
+          qty: 4
+        - item: blank_transmitter_card
+          qty: 1
+    qty_from_craft: 1
+world_sensor_module:
+    id: 1492
+    meta: 1
+    recipe:
+        - item: blank_sensor_card
+          qty: 1
+        - item: cobblestone
+          qty: 4
+        - item: dirt
+          qty: 4
+    qty_from_craft: 1
+inventory_sensor_module:
+    id: 1492
+    meta: 2
+    recipe:
+        - item: blank_sensor_card
+          qty: 1
+        - item: planks
+          qty: 1
+    qty_from_craft: 1
+buildcraft_sensor_module:
+    id: 1492
+    meta: 3
+    recipe:
+        - item: blank_sensor_card
+          qty: 1
+        - item: planks
+          qty: 3
+        - item: glass
+          qty: 2
+        - item: cobblestone
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+ic2_sensor_module:
+    id: 1492
+    meta: 4
+    recipe:
+        - item: blank_sensor_card
+          qty: 1
+        - item: glass
+          qty: 4
+        - item: iron_ingot
+          qty: 4
+    qty_from_craft: 1
+redpower2_sensor_module:
+    id: 1492
+    meta: 6
+    recipe:
+        - item: blank_sensor_card
+          qty: 1
+        - item: glass
+          qty: 4
+        - item: redstone
+          qty: 4
+    qty_from_craft: 1
+ee2_sensor_module:
+    id: 1492
+    meta: 7
+    recipe:
+        - item: blank_sensor_card
+          qty: 1
+        - item: glass
+          qty: 4
+        - item: redstone
+          qty: 2
+        - item: iron_ingot
+          qty: 2
+    qty_from_craft: 1
+proximity_sensor_module:
+    id: 1492
+    meta: 10
+    recipe:
+        - item: blank_sensor_card
+          qty: 1
+        - item: dirt
+          qty: 6
+        - item: cobblestone
+          qty: 2
+    qty_from_craft: 1

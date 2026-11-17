@@ -1,0 +1,176 @@
+white_lamp:
+    id: 147
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: white_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+orange_lamp:
+    id: 147
+    meta: 1
+    recipe:
+        - item: glass
+          qty: 6
+        - item: orange_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+magenta_lamp:
+    id: 147
+    meta: 2
+    recipe:
+        - item: glass
+          qty: 6
+        - item: magenta_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+light_blue_lamp:
+    id: 147
+    meta: 3
+    recipe:
+        - item: glass
+          qty: 6
+        - item: light_blue_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+yellow_lamp:
+    id: 147
+    meta: 4
+    recipe:
+        - item: glass
+          qty: 6
+        - item: yellow_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+lime_lamp:
+    id: 147
+    meta: 5
+    recipe:
+        - item: glass
+          qty: 6
+        - item: lime_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+pink_lamp:
+    id: 147
+    meta: 6
+    recipe:
+        - item: glass
+          qty: 6
+        - item: pink_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+grey_lamp:
+    id: 147
+    meta: 7
+    recipe:
+        - item: glass
+          qty: 6
+        - item: grey_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+light_grey_lamp:
+    id: 147
+    meta: 8
+    recipe:
+        - item: glass
+          qty: 6
+        - item: light_grey_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+cyan_lamp:
+    id: 147
+    meta: 9
+    recipe:
+        - item: glass
+          qty: 6
+        - item: cyan_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+purple_lamp:
+    id: 147
+    meta: 10
+    recipe:
+        - item: glass
+          qty: 6
+        - item: purple_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+blue_lamp:
+    id: 147
+    meta: 11
+    recipe:
+        - item: glass
+          qty: 6
+        - item: blue_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+brown_lamp:
+    id: 147
+    meta: 12
+    recipe:
+        - item: glass
+          qty: 6
+        - item: brown_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+green_lamp:
+    id: 147
+    meta: 13
+    recipe:
+        - item: glass
+          qty: 6
+        - item: green_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+red_lamp:
+    id: 147
+    meta: 14
+    recipe:
+        - item: glass
+          qty: 6
+        - item: red_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+black_lamp:
+    id: 147
+    meta: 15
+    recipe:
+        - item: glass
+          qty: 6
+        - item: black_lumar
+          qty: 2
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1

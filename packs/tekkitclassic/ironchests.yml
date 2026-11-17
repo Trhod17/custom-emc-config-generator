@@ -1,0 +1,112 @@
+copper_chest:
+    id: 181
+    meta: 3
+    recipe:
+        - item: chest
+          qty: 1
+        - item: copper_ingot
+          qty: 8
+    qty_from_craft: 1
+chest_to_copper_chest_upgrade:
+    id: 29764
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 7
+        - item: copper_ingot
+          qty: 2
+    qty_from_craft: 1
+iron_chest:
+    id: 181
+    meta: 0
+    recipe:
+        - item: chest
+          qty: 1
+        - item: iron_ingot
+          qty: 8
+    qty_from_craft: 1
+chest_to_iron_chest_upgrade:
+    id: 29763
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 7
+        - item: iron_ingot
+          qty: 2
+    qty_from_craft: 1
+copper_chest_to_iron_chest_upgrade:
+    id: 19761
+    meta: 0
+    recipe:
+        - item: copper_ingot
+          qty: 7
+        - item: iron_ingot
+          qty: 2
+    qty_from_craft: 1
+silver_chest:
+    id: 181
+    meta: 4
+    recipe:
+        - item: copper_chest
+          qty: 1
+        - item: silver_ingot
+          qty: 8
+    qty_from_craft: 1
+copper_Chest_to_silver_chest_upgrade:
+    id: 19759
+    meta: 0
+    recipe:
+        - item: copper_ingot
+          qty: 7
+        - item: silver_ingot
+          qty: 2
+    qty_from_craft: 1
+gold_chest:
+    id: 181
+    meta: 1
+    recipe:
+        - item: iron_chest
+          qty: 1
+        - item: gold_ingot
+          qty: 8
+    qty_from_craft: 1
+iron_chest_to_gold_chest_upgrade:
+    id: 19757
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 7
+        - item: gold_ingot
+          qty: 2
+    qty_from_craft: 1
+silver_chest_to_gold_chest_upgrade:
+    id: 19760
+    meta: 0
+    recipe:
+        - item: silver_ingot
+          qty: 7
+        - item: gold_ingot
+          qty: 2
+    qty_from_craft: 1
+diamond_chest:
+    id: 181
+    meta: 2
+    recipe:
+        - item: gold_chest
+          qty: 1
+        - item: diamond
+          qty: 2
+        - item: glass
+          qty: 6
+    qty_from_craft: 1
+gold_chest_to_diamond_chest:
+    id: 19758
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 1
+        - item: diamond
+          qty: 2
+        - item: glass
+          qty: 6
+    qty_from_craft: 1

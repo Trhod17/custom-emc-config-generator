@@ -1,0 +1,801 @@
+flax_seeds:
+    id: 1290
+    meta: 0
+    emc: 4
+nikolite:
+    id: 1257
+    meta: 6
+    recipe:
+        - item: nikolite_ore
+          qty: 1
+    qty_from_craft: 1
+ruby:
+    id: 1257
+    meta: 0
+    emc: 1024
+emerald:
+    id: 1257
+    meta: 1
+    emc: 1024
+sapphire:
+    id: 1257
+    meta: 2
+    emc: 1024
+copper_ingot:
+    id: 1257
+    meta: 5
+    recipe:
+        - item: copper_ore
+          qty: 2
+    qty_from_craft: 1
+silver_ingot:
+    id: 1257
+    meta: 3
+    recipe:
+        - item: silver_ore
+          qty: 2
+    qty_from_craft: 1
+tin_ingot:
+    id: 1257
+    meta: 4
+    recipe:
+        - item: tin_ore
+          qty: 2
+    qty_from_craft: 1
+brass_ingot:
+    id: 1258
+    meta: 2
+    recipe:
+        - item: copper_ore
+          qty: 0.75
+        - item: tin_ingot
+          qty: 0.25
+    qty_from_craft: 1
+blue_alloy_ingot:
+    id: 1258
+    meta: 0
+    recipe:
+        - item: tin_ingot
+          qty: 1
+        - item: nikolite
+          qty: 4
+    qty_from_craft: 1
+red_alloy_ingot:
+    id: 1258
+    meta: 1
+    recipe:
+        - item: iron_ingot
+          qty: 1
+        - item: redstone
+          qty: 4
+    qty_from_craft: 1
+bt_battery:
+    id: 1326
+    meta: 0
+    recipe:
+        - item: nikolite
+          qty: 6
+        - item: copper_ingot
+          qty: 2
+        - item: tin_ingot
+          qty: 1
+    qty_from_craft: 1
+white_lumar:
+    id: 1256
+    meta: 0
+    recipe:
+        - item: bone_meal
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+orange_lumar:
+    id: 1256
+    meta: 1
+    recipe:
+        - item: orange
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+magenta_lumar:
+    id: 1256
+    meta: 2
+    recipe:
+        - item: magenta
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+light_blue_lumar:
+    id: 1256
+    meta: 3
+    recipe:
+        - item: light_blue
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+yellow_lumar:
+    id: 1256
+    meta: 4
+    recipe:
+        - item: yellow
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+lime_lumar:
+    id: 1256
+    meta: 5
+    recipe:
+        - item: lime
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+pink_lumar:
+    id: 1256
+    meta: 6
+    recipe:
+        - item: pink
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+grey_lumar:
+    id: 1256
+    meta: 7
+    recipe:
+        - item: grey
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+light_grey_lumar:
+    id: 1256
+    meta: 8
+    recipe:
+        - item: light_grey
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+cyan_lumar:
+    id: 1256
+    meta: 9
+    recipe:
+        - item: cyan
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+purple_lumar:
+    id: 1256
+    meta: 10
+    recipe:
+        - item: purple
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+blue_lumar:
+    id: 1256
+    meta: 11
+    recipe:
+        - item: lapis
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+brown_lumar:
+    id: 1256
+    meta: 12
+    recipe:
+        - item: cocoa_beans
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+green_lumar:
+    id: 1256
+    meta: 13
+    recipe:
+        - item: green
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+red_lumar:
+    id: 1256
+    meta: 14
+    recipe:
+        - item: red
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+black_lumar:
+    id: 1256
+    meta: 15
+    recipe:
+        - item: ink_sac
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+diamond_drawplate:
+    id: 1331
+    meta: 0
+    recipe:
+        - item: diamond_panel
+          qty: 1
+        - item: iron_panel_strip
+          qty: 4
+    qty_from_craft: 1
+fine_copper_wire:
+    id: 1258
+    meta: 8
+    recipe:
+        - item: copper_ingot
+          qty: 1
+    qty_from_craft: 1
+silicon_boule:
+    id: 1258
+    meta: 3
+    recipe:
+        - item: sand
+          qty: 8
+        - item: coal
+          qty: 8
+    qty_from_craft: 1
+silicon_wafer:
+    id: 1258
+    meta: 4
+    recipe:
+        - item: silicon_boule
+          qty: 1
+    qty_from_craft: 16
+red_doped_wafer:
+    id: 1258
+    meta: 6
+    recipe:
+        - item: silicon_wafer
+          qty: 1
+        - item: redstone
+          qty: 4
+    qty_from_craft: 1
+copper_coil:
+    id: 1258
+    meta: 10
+    recipe:
+        - item: fine_copper_wire
+          qty: 4
+        - item: iron_bars
+          qty: 4
+        - item: iron_ingot
+          qty: 1
+    qty_from_craft: 1
+blulectric_motor:
+    id: 1258
+    meta: 11
+    recipe:
+        - item: iron_ingot
+          qty: 6
+        - item: copper_coil
+          qty: 2
+        - item: blue_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+blue_doped_wafer:
+    id: 1258
+    meta: 5
+    recipe:
+        - item: silicon_wafer
+          qty: 1
+        - item: nikolite
+          qty: 4
+    qty_from_craft: 1
+tin_plate:
+    id: 1258
+    meta: 7
+    recipe:
+        - item: tin_ingot
+          qty: 1
+        - item: iron_ingot
+          qty: 2
+    qty_from_craft: 4
+paint_can:
+    id: 1291
+    meta: 0
+    recipe:
+        - item: tin_plate
+          qty: 7
+    qty_from_craft: 1
+white_paint:
+    id: 1292
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: bone_meal
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+orange_paint:
+    id: 1293
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: orange
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+magenta_paint:
+    id: 1294
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: magenta
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+light_blue_paint:
+    id: 1295
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: light_blue
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+yellow_paint:
+    id: 1296
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: yellow
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+lime_paint:
+    id: 1297
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: lime
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+pink_paint:
+    id: 1298
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: pink
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+grey_paint:
+    id: 1299
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: grey
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+light_grey_paint:
+    id: 1300
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: light_grey
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+cyan_paint:
+    id: 1301
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: cyan
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+purple_paint:
+    id: 1302
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: purple
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+blue_paint:
+    id: 1303
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: lapis
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+brown_paint:
+    id: 1304
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: cocoa_beans
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+green_paint:
+    id: 1305
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: green
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+red_paint:
+    id: 1306
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: red
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+black_paint:
+    id: 1307
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 6
+        - item: ink_sac
+          qty: 1
+        - item: paint_can
+          qty: 1
+        - item: flax_seeds
+          qty: 2
+    qty_from_craft: 1
+paint_brush:
+    id: 1308
+    meta: 0
+    recipe:
+        - item: wool
+          qty: 1
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+white_paint_brush:
+    id: 1309
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: white_paint
+          qty: 1
+    qty_from_craft: 1
+orange_paint_brush:
+    id: 1310
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: orange_paint
+          qty: 1
+    qty_from_craft: 1
+magenta_paint_brush:
+    id: 1311
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: magenta_paint
+          qty: 1
+    qty_from_craft: 1
+light_blue_paint_brush:
+    id: 1312
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: light_blue_paint
+          qty: 1
+    qty_from_craft: 1
+yellow_paint_brush:
+    id: 1313
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: yellow_paint
+          qty: 1
+    qty_from_craft: 1
+lime_paint_brush:
+    id: 1314
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: lime_paint
+          qty: 1
+    qty_from_craft: 1
+pink_paint_brush:
+    id: 1315
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: pink_paint
+          qty: 1
+    qty_from_craft: 1
+grey_paint_brush:
+    id: 1316
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: grey_paint
+          qty: 1
+    qty_from_craft: 1
+light_grey_paint_brush:
+    id: 1317
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: light_grey_paint
+          qty: 1
+    qty_from_craft: 1
+cyan_paint_brush:
+    id: 1318
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: cyan_paint
+          qty: 1
+    qty_from_craft: 1
+purple_paint_brush:
+    id: 1319
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: purple_paint
+          qty: 1
+    qty_from_craft: 1
+blue_paint_brush:
+    id: 1320
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: blue_paint
+          qty: 1
+    qty_from_craft: 1
+brown_paint_brush:
+    id: 1321
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: brown_paint
+          qty: 1
+    qty_from_craft: 1
+green_paint_brush:
+    id: 1322
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: green_paint
+          qty: 1
+    qty_from_craft: 1
+red_paint_brush:
+    id: 1323
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: red_paint
+          qty: 1
+    qty_from_craft: 1
+black_paint_brush:
+    id: 1324
+    meta: 0
+    recipe:
+        - item: paint_brush
+          qty: 1
+        - item: black_paint
+          qty: 1
+    qty_from_craft: 1
+stone_wafer:
+    id: 1263
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 1
+    qty_from_craft: 2
+stone_wire:
+    id: 1263
+    meta: 1
+    recipe:
+        - item: stone_wafer
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+stone_anode:
+    id: 1263
+    meta: 2
+    recipe:
+        - item: redstone
+          qty: 1.33
+        - item: stone_wafer
+          qty: 1
+    qty_from_craft: 1
+stone_cathode:
+    id: 1263
+    meta: 3
+    recipe:
+        - item: stone_wafer
+          qty: 1
+        - item: redstone_torch
+          qty: 1
+    qty_from_craft: 1
+stone_pointer:
+    id: 1263
+    meta: 4
+    recipe:
+        - item: stone
+          qty: 1
+        - item: redstone_torch
+          qty: 1
+        - item: stone_wafer
+          qty: 1
+    qty_from_craft: 1
+silicon_chip:
+    id: 1263
+    meta: 7
+    recipe:
+        - item: stone_wafer
+          qty: 1
+        - item: red_doped_wafer
+          qty: 0.33
+    qty_from_craft: 1
+stone_redwire:
+    id: 1263
+    meta: 5
+    recipe:
+        - item: red_alloy_wire
+          qty: 1
+        - item: stone_wafer
+          qty: 1
+    qty_from_craft: 1
+plate_assembly:
+    id: 1263
+    meta: 6
+    recipe:
+        - item: stone_wafer
+          qty: 3
+        - item: stick
+          qty: 2
+        - item: stone_cathode
+          qty: 1
+        - item: red_alloy_ingot
+          qty: 1
+    qty_from_craft: 1
+tainted_silicon_chip:
+    id: 1263
+    meta: 8
+    recipe:
+        - item: silicon_chip
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+    qty_from_craft: 1
+stone_bundle:
+    id: 1263
+    meta: 9
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: stone_wafer
+          qty: 1
+    qty_from_craft: 1

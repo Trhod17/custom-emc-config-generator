@@ -1,0 +1,140 @@
+diamond_helmet:
+    id: 310
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 5
+    qty_from_craft: 1
+diamond_chestplate:
+    id: 311
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 8
+    qty_from_craft: 1
+diamond_leggings:
+    id: 312
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 7
+    qty_from_craft: 1
+diamond_boots:
+    id: 313
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 4
+    qty_from_craft: 1
+gold_helmet:
+    id: 314
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 5
+    qty_from_craft: 1
+gold_chestplate:
+    id: 315
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 8
+    qty_from_craft: 1
+gold_leggings:
+    id: 316
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 7
+    qty_from_craft: 1
+gold_boots:
+    id: 317
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 4
+    qty_from_craft: 1
+chain_helmet:
+    id: 302
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 5
+    qty_from_craft: 1
+chain_chestplate:
+    id: 303
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 8
+    qty_from_craft: 1
+chain_leggings:
+    id: 304
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 7
+    qty_from_craft: 1
+chain_boots:
+    id: 305
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 4
+    qty_from_craft: 1
+iron_helmet:
+    id: 306
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 5
+    qty_from_craft: 1
+iron_chestplate:
+    id: 307
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 8
+    qty_from_craft: 1
+iron_leggings:
+    id: 308
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 7
+    qty_from_craft: 1
+iron_boots:
+    id: 309
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 4
+    qty_from_craft: 1
+leather_helmet:
+    id: 298
+    meta: 0
+    recipe:
+        - item: leather
+          qty: 5
+    qty_from_craft: 1
+leather_chestplate:
+    id: 299
+    meta: 0
+    recipe:
+        - item: leather
+          qty: 8
+    qty_from_craft: 1
+leather_leggings:
+    id: 300
+    meta: 0
+    recipe:
+        - item: leather
+          qty: 7
+    qty_from_craft: 1
+leather_boots:
+    id: 301
+    meta: 0
+    recipe:
+        - item: leather
+          qty: 4
+    qty_from_craft: 1

@@ -1,0 +1,367 @@
+red_alloy_wire:
+    id: 136
+    meta: 256
+    recipe:
+        - item: red_alloy_ingot
+          qty: 3
+    qty_from_craft: 12
+white_insulated_wire:
+    id: 136
+    meta: 512
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: wool
+          qty: 6
+    qty_from_craft: 12
+orange_insulated_wire:
+    id: 136
+    meta: 513
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: orange_wool
+          qty: 6
+    qty_from_craft: 12
+magenta_insulated_wire:
+    id: 136
+    meta: 514
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: magenta_wool
+          qty: 6
+    qty_from_craft: 12
+light_blue_insulated_wire:
+    id: 136
+    meta: 515
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: light_blue_wool
+          qty: 6
+    qty_from_craft: 12
+yellow_insulated_wire:
+    id: 136
+    meta: 516
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: yellow_wool
+          qty: 6
+    qty_from_craft: 12
+lime_insulated_wire:
+    id: 136
+    meta: 517
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: lime_wool
+          qty: 6
+    qty_from_craft: 12
+pink_insulated_wire:
+    id: 136
+    meta: 518
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: pink_wool
+          qty: 6
+    qty_from_craft: 12
+gray_insulated_wire:
+    id: 136
+    meta: 519
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: grey_wool
+          qty: 6
+    qty_from_craft: 12
+light_gray_insulated_wire:
+    id: 136
+    meta: 520
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: light_grey_wool
+          qty: 6
+    qty_from_craft: 12
+cyan_insulated_wire:
+    id: 136
+    meta: 521
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: cyan_wool
+          qty: 6
+    qty_from_craft: 12
+purple_insulated_wire:
+    id: 136
+    meta: 522
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: purple_wool
+          qty: 6
+    qty_from_craft: 12
+blue_insulated_wire:
+    id: 136
+    meta: 523
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: blue_wool
+          qty: 6
+    qty_from_craft: 12
+brown_insulated_wire:
+    id: 136
+    meta: 524
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: brown_wool
+          qty: 6
+    qty_from_craft: 12
+green_insulated_wire:
+    id: 136
+    meta: 525
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: green_wool
+          qty: 6
+    qty_from_craft: 12
+red_insulated_wire:
+    id: 136
+    meta: 526
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: red_wool
+          qty: 6
+    qty_from_craft: 12
+black_insulated_wire:
+    id: 136
+    meta: 527
+    recipe:
+        - item: red_alloy_wire
+          qty: 3
+        - item: black_wool
+          qty: 6
+    qty_from_craft: 12
+bundled_cable:
+    id: 136
+    meta: 768
+    recipe:
+        - item: white_insulated_wire
+          qty: 5
+        - item: string
+          qty: 4
+    qty_from_craft: 2
+white_bundled_cable:
+    id: 136
+    meta: 769
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: bone_meal
+          qty: 1
+    qty_from_craft: 2
+orange_bundled_cable:
+    id: 136
+    meta: 770
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: orange
+          qty: 1
+    qty_from_craft: 2
+magenta_bundled_cable:
+    id: 136
+    meta: 771
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: magenta
+          qty: 1
+    qty_from_craft: 2
+light_blue_bundled_cable:
+    id: 136
+    meta: 772
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: light_blue
+          qty: 1
+    qty_from_craft: 2
+yellow_bundled_cable:
+    id: 136
+    meta: 773
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: yellow
+          qty: 1
+    qty_from_craft: 2
+lime_bundled_cable:
+    id: 136
+    meta: 774
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: lime
+          qty: 1
+    qty_from_craft: 2
+pink_bundled_cable:
+    id: 136
+    meta: 775
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: pink
+          qty: 1
+    qty_from_craft: 2
+grey_bundled_cable:
+    id: 136
+    meta: 776
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: grey
+          qty: 1
+    qty_from_craft: 2
+light_grey_bundled_cable:
+    id: 136
+    meta: 777
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: light_grey
+          qty: 1
+    qty_from_craft: 2
+cyan_bundled_cable:
+    id: 136
+    meta: 778
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: cyan
+          qty: 1
+    qty_from_craft: 2
+purple_bundled_cable:
+    id: 136
+    meta: 779
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: purple
+          qty: 1
+    qty_from_craft: 2
+blue_bundled_cable:
+    id: 136
+    meta: 780
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: lapis
+          qty: 1
+    qty_from_craft: 2
+brown_bundled_cable:
+    id: 136
+    meta: 781
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: cocoa_beans
+          qty: 1
+    qty_from_craft: 2
+green_bundled_cable:
+    id: 136
+    meta: 782
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: green
+          qty: 1
+    qty_from_craft: 2
+red_bundled_cable:
+    id: 136
+    meta: 783
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: red
+          qty: 1
+    qty_from_craft: 2
+black_bundled_cable:
+    id: 136
+    meta: 784
+    recipe:
+        - item: bundled_cable
+          qty: 1
+        - item: ink_sac
+          qty: 1
+    qty_from_craft: 2
+ribbon_cable:
+    id: 136
+    meta: 3072
+    recipe:
+        - item: fine_copper_wire
+          qty: 3
+    qty_from_craft: 8
+blue_alloy_wire:
+    id: 136
+    meta: 1280
+    recipe:
+        - item: blue_alloy_ingot
+          qty: 3
+        - item: wool
+          qty: 6
+    qty_from_craft: 12
+fluid_pipe:
+    id: 136
+    meta: 1792
+    recipe:
+        - item: brass_ingot
+          qty: 6
+        - item: glass
+          qty: 1
+    qty_from_craft: 16
+pneumatic_tube:
+    id: 136
+    meta: 2048
+    recipe:
+        - item: brass_ingot
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+redstone_tube:
+    id: 136
+    meta: 2304
+    recipe:
+        - item: pneumatic_tube
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+restriction_tube:
+    id: 136
+    meta: 2560
+    recipe:
+        - item: pneumatic_tube
+          qty: 1
+        - item: iron_ingot
+          qty: 1
+    qty_from_craft: 1
+mag_tube:
+    id: 136
+    meta: 2816
+    recipe:
+        - item: fine_copper_wire
+          qty: 6
+        - item: obsidian
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8

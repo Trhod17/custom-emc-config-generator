@@ -1,0 +1,280 @@
+iron_handsaw:
+    id: 1260
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: iron_ingot
+          qty: 4
+    qty_from_craft: 1
+diamond_handsaw:
+    id: 1260
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: iron_ingot
+          qty: 2
+        - item: diamond
+          qty: 2
+    qty_from_craft: 1
+ruby_handsaw:
+    id: 1260
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: iron_ingot
+          qty: 2
+        - item: ruby
+          qty: 2
+    qty_from_craft: 1
+sapphire_handsaw:
+    id: 1260
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: iron_ingot
+          qty: 2
+        - item: sapphire
+          qty: 2
+    qty_from_craft: 1
+emerald_handsaw:
+    id: 1260
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 3
+        - item: iron_ingot
+          qty: 2
+        - item: emerald
+          qty: 2
+    qty_from_craft: 1
+screwdriver:
+    id: 1262
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 1
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+sonic_screwdriver:
+    id: 1327
+    meta: 0
+    recipe:
+        - item: emerald
+          qty: 1
+        - item: brass_ingot
+          qty: 1
+        - item: bt_battery
+          qty: 1
+    qty_from_craft: 1
+ruby_pickaxe:
+    id: 1281
+    meta: 0
+    recipe:
+        - item: ruby
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+ruby_axe:
+    id: 1284
+    meta: 0
+    recipe:
+        - item: ruby
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+ruby_shovel:
+    id: 1278
+    meta: 0
+    recipe:
+        - item: ruby
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+ruby_sword:
+    id: 1275
+    meta: 0
+    recipe:
+        - item: ruby
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+ruby_hoe:
+    id: 1287
+    meta: 0
+    recipe:
+        - item: ruby
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+emerald_pickaxe:
+    id: 1282
+    meta: 0
+    recipe:
+        - item: emerald
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+emerald_axe:
+    id: 1285
+    meta: 0
+    recipe:
+        - item: emerald
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+emerald_shovel:
+    id: 1279
+    meta: 0
+    recipe:
+        - item: emerald
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+emerald_sword:
+    id: 1276
+    meta: 0
+    recipe:
+        - item: emerald
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+emerald_hoe:
+    id: 1288
+    meta: 0
+    recipe:
+        - item: emerald
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+sapphire_pickaxe:
+    id: 1283
+    meta: 0
+    recipe:
+        - item: sapphire
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+sapphire_axe:
+    id: 1286
+    meta: 0
+    recipe:
+        - item: sapphire
+          qty: 3
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+sapphire_shovel:
+    id: 1280
+    meta: 0
+    recipe:
+        - item: sapphire
+          qty: 1
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+sapphire_sword:
+    id: 1277
+    meta: 0
+    recipe:
+        - item: sapphire
+          qty: 2
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+sapphire_hoe:
+    id: 1289
+    meta: 0
+    recipe:
+        - item: sapphire
+          qty: 2
+        - item: stick
+          qty: 2
+    qty_from_craft: 1
+wood_sickle:
+    id: 1267
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+stone_sickle:
+    id: 1268
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+iron_sickle:
+    id: 1269
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+diamond_sickle:
+    id: 1270
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+gold_sickle:
+    id: 1271
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+ruby_sickle:
+    id: 1272
+    meta: 0
+    recipe:
+        - item: ruby
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+emerald_sickle:
+    id: 1273
+    meta: 0
+    recipe:
+        - item: emerald
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1
+sapphire_sickle:
+    id: 1274
+    meta: 0
+    recipe:
+        - item: sapphire
+          qty: 3
+        - item: stick
+          qty: 1
+    qty_from_craft: 1

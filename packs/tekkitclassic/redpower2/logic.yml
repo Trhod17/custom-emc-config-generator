@@ -1,0 +1,311 @@
+timer:
+    id: 138
+    meta: 0
+    recipe:
+        - item: stone_wafer
+          qty: 2
+        - item: stone_wire
+          qty: 3
+        - item: stone_anode
+          qty: 2
+        - item: stone_cathode
+          qty: 1
+        - item: stone_pointer
+          qty: 1
+    qty_from_craft: 1
+sequencer:
+    id: 138
+    meta: 1
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_cathode
+          qty: 4
+        - item: stone_pointer
+          qty: 1
+    qty_from_craft: 1
+state_cell:
+    id: 138
+    meta: 2
+    recipe:
+        - item: stone_wafer
+          qty: 3
+        - item: stone_wire
+          qty: 2
+        - item: stone_pointer
+          qty: 1
+        - item: stone_anode
+          qty: 1
+        - item: stone_cathode
+          qty: 1
+        - item: silicon_chip
+          qty: 1
+    qty_from_craft: 1
+rs_latch:
+    id: 138
+    meta: 256
+    recipe:
+        - item: stone_wire
+          qty: 4
+        - item: stone_anode
+          qty: 2
+        - item: stone_cathode
+          qty: 2
+        - item: stone_wafer
+          qty: 1
+    qty_from_craft: 1
+nor_gate:
+    id: 138
+    meta: 257
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_wire
+          qty: 3
+        - item: stone_anode
+          qty: 1
+        - item: stone_cathode
+          qty: 1
+    qty_from_craft: 1
+or_gate:
+    id: 138
+    meta: 258
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_wire
+          qty: 3
+        - item: stone_cathode
+          qty: 2
+    qty_from_craft: 1
+nand_gate:
+    id: 138
+    meta: 259
+    recipe:
+        - item: stone_wafer
+          qty: 2
+        - item: stone_wire
+          qty: 1
+        - item: stone_cathode
+          qty: 3
+        - item: stone_anode
+          qty: 3
+    qty_from_craft: 1
+and_gate:
+    id: 138
+    meta: 260
+    recipe:
+        - item: stone_wafer
+          qty: 2
+        - item: stone_wire
+          qty: 1
+        - item: stone_cathode
+          qty: 4
+        - item: stone_anode
+          qty: 2
+    qty_from_craft: 1
+xnor_gate:
+    id: 138
+    meta: 261
+    recipe:
+        - item: stone_wire
+          qty: 2
+        - item: stone_cathode
+          qty: 4
+        - item: stone_anode
+          qty: 3
+    qty_from_craft: 1
+xor_gate:
+    id: 138
+    meta: 262
+    recipe:
+        - item: stone_wire
+          qty: 3
+        - item: stone_cathode
+          qty: 3
+        - item: stone_anode
+          qty: 3
+    qty_from_craft: 1
+pulse_former:
+    id: 138
+    meta: 263
+    recipe:
+        - item: stone_wire
+          qty: 2
+        - item: stone_wafer
+          qty: 1
+        - item: stone_cathode
+          qty: 3
+        - item: stone_anode
+          qty: 3
+    qty_from_craft: 1
+toggle_latch:
+    id: 138
+    meta: 264
+    recipe:
+        - item: lever
+          qty: 1
+        - item: stone_cathode
+          qty: 2
+        - item: stone_wire
+          qty: 2
+        - item: stone_wafer
+          qty: 4
+    qty_from_craft: 1
+not_gate:
+    id: 138
+    meta: 265
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_anode
+          qty: 3
+        - item: stone_wire
+          qty: 1
+        - item: stone_cathode
+          qty: 1
+    qty_from_craft: 1
+buffer_gate:
+    id: 138
+    meta: 266
+    recipe:
+        - item: stone_wafer
+          qty: 2
+        - item: stone_anode
+          qty: 2
+        - item: stone_wire
+          qty: 3
+        - item: stone_cathode
+          qty: 2
+    qty_from_craft: 1
+multiplexer:
+    id: 138
+    meta: 267
+    recipe:
+        - item: stone_wafer
+          qty: 1
+        - item: stone_anode
+          qty: 3
+        - item: stone_wire
+          qty: 1
+        - item: stone_cathode
+          qty: 4
+    qty_from_craft: 1
+repeater:
+    id: 138
+    meta: 268
+    recipe:
+        - item: stone_wafer
+          qty: 3
+        - item: stone_wire
+          qty: 3
+        - item: stone_anode
+          qty: 1
+        - item: stone_cathode
+          qty: 2
+    qty_from_craft: 1
+synchronizer:
+    id: 138
+    meta: 269
+    recipe:
+        - item: stone_wire
+          qty: 5
+        - item: silicon_chip
+          qty: 2
+        - item: stone_anode
+          qty: 1
+        - item: stone_cathode
+          qty: 1
+    qty_from_craft: 1
+randomizer:
+    id: 138
+    meta: 270
+    recipe:
+        - item: stone_wafer
+          qty: 2
+        - item: stone_wire
+          qty: 4
+        - item: tainted_silicon_chip
+          qty: 3
+    qty_from_craft: 1
+transparent_latch:
+    id: 138
+    meta: 271
+    recipe:
+        - item: stone_cathode
+          qty: 5
+        - item: stone_anode
+          qty: 1
+        - item: stone_wafer
+          qty: 1
+        - item: stone_wire
+          qty: 2
+    qty_from_craft: 1
+light_sensor:
+    id: 138
+    meta: 272
+    recipe:
+        - item: stone_wafer
+          qty: 7
+        - item: blue_doped_wafer
+          qty: 1
+        - item: stone_wire
+          qty: 1
+    qty_from_craft: 1
+null_cell:
+    id: 138
+    meta: 512
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_wire
+          qty: 5
+    qty_from_craft: 1
+invert_cell:
+    id: 138
+    meta: 513
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_wire
+          qty: 4
+        - item: plate_assembly
+          qty: 1
+    qty_from_craft: 1
+non_invert_cell:
+    id: 138
+    meta: 514
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_wire
+          qty: 4
+        - item: plate_assembly
+          qty: 1
+        - item: stone_cathode
+          qty: 1
+    qty_from_craft: 1
+counter:
+    id: 138
+    meta: 768
+    recipe:
+        - item: stone_wafer
+          qty: 4
+        - item: stone_wire
+          qty: 2
+        - item: stone_anode
+          qty: 2
+        - item: stone_pointer
+          qty: 1
+    qty_from_craft: 1
+bus_transciever:
+    id: 138
+    meta: 1024
+    recipe:
+        - item: stone_wafer
+          qty: 1
+        - item: red_doped_wafer
+          qty: 2
+        - item: stone_bundle
+          qty: 6
+    qty_from_craft: 1

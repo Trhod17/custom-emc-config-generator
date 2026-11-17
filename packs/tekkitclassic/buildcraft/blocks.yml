@@ -1,0 +1,298 @@
+wooden_pipe:
+    id: 4306
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+cobblestone_pipe:
+    id: 4307
+    meta: 0
+    recipe:
+        - item: cobblestone
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+stone_pipe:
+    id: 4308
+    meta: 0
+    recipe:
+        - item: stone
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+iron_pipe:
+    id: 4309
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+gold_pipe:
+    id: 4310
+    meta: 0
+    recipe:
+        - item: gold_ingot
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+diamond_pipe:
+    id: 4311
+    meta: 0
+    recipe:
+        - item: diamond
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+obsidian_pipe:
+    id: 4312
+    meta: 0
+    recipe:
+        - item: obsidian
+          qty: 2
+        - item: glass
+          qty: 1
+    qty_from_craft: 8
+wooden_waterproof_pipe:
+    id: 4313
+    meta: 0
+    recipe:
+        - item: wooden_pipe
+          qty: 1
+        - item: pipe_waterproof
+          qty: 1
+    qty_from_craft: 1
+cobblestone_waterproof_pipe:
+    id: 4314
+    meta: 0
+    recipe:
+        - item: cobblestone_pipe
+          qty: 1
+        - item: pipe_waterproof
+          qty: 1
+    qty_from_craft: 1
+stone_waterproof_pipe:
+    id: 4315
+    meta: 0
+    recipe:
+        - item: stone_pipe
+          qty: 1
+        - item: pipe_waterproof
+          qty: 1
+    qty_from_craft: 1
+iron_waterproof_pipe:
+    id: 4316
+    meta: 0
+    recipe:
+        - item: iron_pipe
+          qty: 1
+        - item: pipe_waterproof
+          qty: 1
+    qty_from_craft: 1
+gold_waterproof_pipe:
+    id: 4317
+    meta: 0
+    recipe:
+        - item: gold_pipe
+          qty: 1
+        - item: pipe_waterproof
+          qty: 1
+    qty_from_craft: 1
+wooden_conductive_pipe:
+    id: 4320
+    meta: 0
+    recipe:
+        - item: wooden_pipe
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+stone_conductive_pipe:
+    id: 4321
+    meta: 0
+    recipe:
+        - item: stone_pipe
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+gold_conductive_pipe:
+    id: 4322
+    meta: 0
+    recipe:
+        - item: gold_pipe
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+quarry:
+    id: 153
+    meta: 0
+    recipe:
+        - item: iron_gear
+          qty: 3
+        - item: gold_gear
+          qty: 2
+        - item: diamond_gear
+          qty: 2
+        - item: diamond_pickaxe
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+land_mark:
+    id: 154
+    meta: 0
+    recipe:
+        - item: redstone_torch
+          qty: 1
+        - item: lapis
+          qty: 1
+    qty_from_craft: 1
+filler:
+    id: 155
+    meta: 0
+    recipe:
+        - item: ink_sac
+          qty: 2
+        - item: yellow
+          qty: 2
+        - item: gold_gear
+          qty: 2
+        - item: land_mark
+          qty: 1
+        - item: crafting_table
+          qty: 1
+        - item: chest
+          qty: 1
+    qty_from_craft: 1
+builder:
+    id: 157
+    meta: 0
+    recipe:
+        - item: ink_sac
+          qty: 2
+        - item: yellow
+          qty: 2
+        - item: diamond_gear
+          qty: 2
+        - item: land_mark
+          qty: 1
+        - item: crafting_table
+          qty: 1
+        - item: chest
+          qty: 1
+    qty_from_craft: 1
+template_drawing_table:
+    id: 158
+    meta: 0
+    recipe:
+        - item: ink_sac
+          qty: 2
+        - item: yellow
+          qty: 2
+        - item: diamond_gear
+          qty: 2
+        - item: land_mark
+          qty: 1
+        - item: crafting_table
+          qty: 1
+        - item: blank_template
+          qty: 1
+    qty_from_craft: 1
+redstone_engine:
+    id: 161
+    meta: 0
+    recipe:
+        - item: planks
+          qty: 3
+        - item: wooden_gear
+          qty: 2
+        - item: piston
+          qty: 1
+        - item: glass
+          qty: 1
+    qty_from_craft: 1
+steam_engine:
+    id: 161
+    meta: 1
+    recipe:
+        - item: cobblestone
+          qty: 3
+        - item: stone_gear
+          qty: 2
+        - item: piston
+          qty: 1
+        - item: glass
+          qty: 1
+    qty_from_craft: 1
+combustion_engine:
+    id: 161
+    meta: 2
+    recipe:
+        - item: iron_ingot
+          qty: 3
+        - item: iron_gear
+          qty: 2
+        - item: piston
+          qty: 1
+        - item: glass
+          qty: 1
+    qty_from_craft: 1
+mining_well:
+    id: 174
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 6
+        - item: iron_gear
+          qty: 1
+        - item: iron_pickaxe
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+tank:
+    id: 165
+    meta: 0
+    recipe:
+        - item: glass
+          qty: 8
+    qty_from_craft: 1
+pump_bc:
+    id: 164
+    meta: 0
+    recipe:
+        - item: mining_well
+          qty: 1
+        - item: tank
+          qty: 1
+    qty_from_craft: 1
+refinery:
+    id: 167
+    meta: 0
+    recipe:
+        - item: tank
+          qty: 3
+        - item: redstone_torch
+          qty: 1
+        - item: diamond_gear
+          qty: 1
+    qty_from_craft: 1
+auto_crafting_table:
+    id: 169
+    meta: 0
+    recipe:
+        - item: wooden_gear
+          qty: 4
+        - item: crafting_table
+          qty: 1
+    qty_from_craft: 1

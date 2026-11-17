@@ -1,0 +1,68 @@
+wooden_gear:
+    id: 4056
+    meta: 0
+    recipe:
+        - item: stick
+          qty: 4
+    qty_from_craft: 1
+stone_gear:
+    id: 4057
+    meta: 0
+    recipe:
+        - item: wooden_gear
+          qty: 1
+        - item: cobblestone
+          qty: 4
+    qty_from_craft: 1
+iron_gear:
+    id: 4058
+    meta: 0
+    recipe:
+        - item: stone_gear
+          qty: 1
+        - item: iron_ingot
+          qty: 4
+    qty_from_craft: 1
+gold_gear:
+    id: 4059
+    meta: 0
+    recipe:
+        - item: iron_gear
+          qty: 1
+        - item: gold_ingot
+          qty: 4
+    qty_from_craft: 1
+diamond_gear:
+    id: 4060
+    meta: 0
+    recipe:
+        - item: gold_gear
+          qty: 1
+        - item: diamond
+          qty: 4
+    qty_from_craft: 1
+wrench:
+    id: 4062
+    meta: 0
+    recipe:
+        - item: stone_gear
+          qty: 1
+        - item: iron_ingot
+          qty: 3
+    qty_from_craft: 1
+pipe_waterproof:
+    id: 4065
+    meta: 0
+    recipe:
+        - item: green
+          qty: 1
+    qty_from_craft: 1
+blank_template:
+    id: 4061
+    meta: 0
+    recipe:
+        - item: paper
+          qty: 8
+        - item: ink_sac
+          qty: 1
+    qty_from_craft: 1

@@ -1,0 +1,212 @@
+stone_railbed:
+    id: 7257
+    meta: 0
+    recipe:
+        - item: stone_tie
+          qty: 4
+    qty_from_craft: 1
+stone_tie:
+    id: 7267
+    meta: 0
+    recipe:
+        - item: rebar
+          qty: 1
+        - item: stone_slab
+          qty: 3
+    qty_from_craft: 1
+rebar:
+    id: 7262
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 3
+    qty_from_craft: 4
+signal_server:
+    id: 7260
+    meta: 0
+    recipe:
+        - item: redstone_torch
+          qty: 1
+        - item: button
+          qty: 2
+        - item: receiver_circuit
+          qty: 1
+    qty_from_craft: 1
+receiver_circuit:
+    id: 7304
+    meta: 0
+    recipe:
+        - item: sand
+          qty: 2
+        - item: redstone
+          qty: 2
+        - item: lapis
+          qty: 1
+        - item: gold_ingot
+          qty: 1
+        - item: slime_ball
+          qty: 1
+        - item: redstone_repeater
+          qty: 1
+    qty_from_craft: 1
+signal_block_surveyor:
+    id: 7261
+    meta: 0
+    recipe:
+        - item: compass
+          qty: 1
+        - item: button
+          qty: 2
+        - item: redstone
+          qty: 1
+        - item: glass_panes
+          qty: 1
+    qty_from_craft: 1
+controller_circuit:
+    id: 7268
+    meta: 0
+    recipe:
+        - item: sand
+          qty: 2
+        - item: redstone
+          qty: 2
+        - item: lapis
+          qty: 1
+        - item: gold_ingot
+          qty: 1
+        - item: slime_ball
+          qty: 1
+        - item: redstone_repeater
+          qty: 1
+    qty_from_craft: 1
+creosote_oil:
+    id: 7269
+    meta: 0
+    recipe:
+        - item: coal_coke
+          qty: 1
+    qty_from_craft: 1
+coal_coke:
+    id: 7291
+    meta: 0
+    recipe:
+        - item: coal
+          qty: 1
+    qty_from_craft: 1
+steel_bore_head:
+    id: 7272
+    meta: 0
+    recipe:
+        - item: steel_ingot
+          qty: 8
+        - item: steel_block
+          qty: 1
+    qty_from_craft: 1
+steel_ingot:
+    id: 7292
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 1
+    qty_from_craft: 1
+standard_rail:
+    id: 7293
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 6
+    qty_from_craft: 8
+high_speed_rail:
+    id: 7294
+    meta: 0
+    recipe:
+        - item: steel_ingot
+          qty: 3
+        - item: blaze_powder
+          qty: 3
+        - item: gold_ingot
+          qty: 3
+    qty_from_craft: 8
+advanced_rail:
+    id: 7300
+    meta: 0
+    recipe:
+        - item: standard_rail
+          qty: 3
+        - item: redstone
+          qty: 3
+        - item: gold_ingot
+          qty: 3
+    qty_from_craft: 8
+wooden_tie:
+    id: 7302
+    meta: 0
+    recipe:
+        - item: wooden_slab
+          qty: 3
+        - item: creosote_oil
+          qty: 1
+    qty_from_craft: 1
+wooden_railbed:
+    id: 7306
+    meta: 0
+    recipe:
+        - item: wooden_tie
+          qty: 4
+    qty_from_craft: 1
+iron_borehead:
+    id: 7308
+    meta: 0
+    recipe:
+        - item: steel_ingot
+          qty: 8
+        - item: iron_block
+          qty: 1
+    qty_from_craft: 1
+tunnel_bore:
+    id: 7310
+    meta: 0
+    recipe:
+        - item: steel_block
+          qty: 2
+        - item: minecart
+          qty: 2
+        - item: furnace
+          qty: 2
+        - item: minecart_with_chest
+          qty: 1
+    qty_from_craft: 1
+signal_lamp:
+    id: 7313
+    meta: 0
+    recipe:
+        - item: glass_panes
+          qty: 3
+        - item: lime
+          qty: 1
+        - item: yellow
+          qty: 1
+        - item: red
+          qty: 1
+        - item: glowstone_dust
+          qty: 1
+        - item: redstone
+          qty: 1
+    qty_from_craft: 1
+diamond_borehead:
+    id: 7314
+    meta: 0
+    recipe:
+        - item: steel_ingot
+          qty: 8
+        - item: diamond_block
+          qty: 1
+    qty_from_craft: 1
+crowbar:
+    id: 7315
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 3
+        - item: red
+          qty: 4

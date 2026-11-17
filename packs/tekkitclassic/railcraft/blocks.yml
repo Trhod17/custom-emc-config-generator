@@ -1,0 +1,169 @@
+metal_post:
+    id: 7266
+    meta: 0
+    recipe:
+        - item: iron_ingot
+          qty: 7
+    qty_from_craft: 16
+black_metal_post:
+    id: 7266
+    meta: 1
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: ink_sac
+          qty: 1
+    qty_from_craft: 1
+red_metal_post:
+    id: 7266
+    meta: 2
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: red
+          qty: 1
+    qty_from_craft: 1
+green_metal_post:
+    id: 7266
+    meta: 3
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: green
+          qty: 1
+    qty_from_craft: 1
+brown_metal_post:
+    id: 7266
+    meta: 4
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: cocoa_beans
+          qty: 1
+    qty_from_craft: 1
+blue_metal_post:
+    id: 7266
+    meta: 5
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: lapis
+          qty: 1
+    qty_from_craft: 1
+purple_metal_post:
+    id: 7266
+    meta: 6
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: purple
+          qty: 1
+    qty_from_craft: 1
+cyan_metal_post:
+    id: 7266
+    meta: 7
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: cyan
+          qty: 1
+    qty_from_craft: 1
+light_grey_metal_post:
+    id: 7266
+    meta: 8
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: light_grey
+          qty: 1
+    qty_from_craft: 1
+grey_metal_post:
+    id: 7266
+    meta: 9
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: grey
+          qty: 1
+    qty_from_craft: 1
+pink_metal_post:
+    id: 7266
+    meta: 10
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: pink
+          qty: 1
+    qty_from_craft: 1
+lime_metal_post:
+    id: 7266
+    meta: 11
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: lime
+          qty: 1
+    qty_from_craft: 1
+yellow_metal_post:
+    id: 7266
+    meta: 12
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: yellow
+          qty: 1
+    qty_from_craft: 1
+light_blue_metal_post:
+    id: 7266
+    meta: 13
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: light_blue
+          qty: 1
+    qty_from_craft: 1
+magenta_metal_post:
+    id: 7266
+    meta: 14
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: magenta
+          qty: 1
+    qty_from_craft: 1
+orange_metal_post:
+    id: 7266
+    meta: 15
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: orange
+          qty: 1
+    qty_from_craft: 1
+white_metal_post:
+    id: 7266
+    meta: 16
+    recipe:
+        - item: metal_post
+          qty: 1
+        - item: bone_meal
+          qty: 1
+    qty_from_craft: 1
+world_anchor:
+    id: 214
+    meta: 0
+    recipe:
+        - item: obsidian
+          qty: 3
+        - item: gold_ingot
+          qty: 4
+        - item: diamond
+          qty: 2
+    qty_from_craft: 1
+steel_block:
+    id: 214
+    meta: 2
+    recipe:
+        - item: steel_ingot
+          qty: 9
+    qty_from_craft: 1
