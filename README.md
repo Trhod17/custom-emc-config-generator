@@ -6,7 +6,7 @@ Only supports modpacks that use EE2 for minecraft 1.2.5
 - CustomEMC (In [mods](mods) folder)(Simply place in modpack mods folder and copy the CustomEmc.cfg in the output directory)
 - [Tekkit Restrict](https://dev.bukkit.org/projects/tekkit-restrict)
 
-### None Emc Modifications
+### Non-Emc Modifications
 - Essentials worth.yml and items.csv
 
 
