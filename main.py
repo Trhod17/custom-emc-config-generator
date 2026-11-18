@@ -9,7 +9,7 @@ def main():
     app.register_mods()
     app.process_recipes()
     app.process_emc()
-    app.run_printers()
+    app.run_generators()
 
 
 if __name__ == "__main__":

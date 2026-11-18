@@ -2,7 +2,7 @@ from pathlib import Path
 
 import yaml
 
-from core.constants import config_pack_dir
+from core.constants import CONFIG_PACK_DIR
 from core.logger import log
 
 
@@ -11,18 +11,33 @@ class ConfigPack:
         self.name = None
         self.cpid = None
         self.modpack_version = None
+        self.era = None
         self.config_dir = None
         self.mods = {}
-        self.printers: list
+        self.generators: list
+
+    @staticmethod
+    def required(data, element):
+        if data["name"] is None:
+            log.error(f"Config.yml Missing Required Element {element}")
+            exit()
+        return data[element]
+
+    @staticmethod
+    def optional(data, element):
+        if element in data:
+            return data[element]
+        return None
+
 
     def parse(self, data, config_dirs):
-        self.name = data["name"]
-        self.cpid = data["cpid"]
-        self.modpack_version = data["modpack_version"]
-        self.config_dir = config_dirs
-        self.printers = data["printers"]
+        self.name = self.required(data, 'name')
+        self.cpid = self.required(data, "cpid")
+        self.modpack_version = self.optional(data, "modpack_version")
+        self.generators = self.required(data, "generators")
+        self.era = self.required(data, "era")
 
-        raw_mods = data["mods"]
+        raw_mods = self.required(data, "mods")
         for raw_mod in raw_mods:
             mod = Mod()
             log.debug(f"{raw_mod}")
@@ -35,6 +50,7 @@ class ConfigPack:
 class Mod:
     def __init__(self):
         self.name = None
+        self.modid = None
         self.version = None
         self.items = []
 
@@ -42,8 +58,11 @@ class Mod:
         self.name = name
         self.version = data["version"]
 
+        if 'modid' in data:
+            self.modid = data['modid']
+
         for file in data["configs"]:
-            fileDir = Path(f"{config_pack_dir}/{cpid}/{file}.yml")
+            fileDir = Path(f"{CONFIG_PACK_DIR}/{cpid}/{file}.yml")
             if fileDir.exists():
                 with open(fileDir) as stream:
                     objs = yaml.safe_load(stream)

@@ -7,6 +7,8 @@ name: Example
 cpid: example
 #Modpack Version {Optional}
 modpack_version: 1.0.0
+#Era
+era: ee2
 #List of Mods {Required}
 mods:
     #Mod Entry
@@ -26,8 +28,9 @@ mods:
             - computercraft
         name: ComputerCraft
         version: 1.33
-printers:
-    # Required Current Supported Values
+generators:
+    # {Required}
+    # Current Supported Values
     # customemc, tekkitrestrict, essentials
     - customemc
     - tekkitrestrict
@@ -58,6 +61,17 @@ modpack_version: 1.0.0
 #Set the version of the modpack
 ```
 
+## era
+Valid eras are
+- ee2 (1.1 - 1.2.5) (requires Customemc mod found in [mods](/mods))
+- projecte_old (1.7.10 - 1.9) customemc.cfg
+- projecte_new (1.10 - 1.12.2) customemc.json
+- projecte (1.13 and above)
+
+```yaml
+era: ee2
+```
+
 ## mods (Required)
 
 A listing of all the mods in the modpack
@@ -80,5 +94,25 @@ mods:
     #...
 ```
 
-## Printers
-Printers create the various emc configs
+## Generators
+Generators create the various emc configs
+
+EE2 Only:
+- customemc
+- tekkitrestrict
+
+Non Specific:
+- essentials
+
+Projecte Only:
+- projecte_old (1.7.10 - 1.9)
+- projecte (1.10 and above)
+
+```yaml
+    generators:
+        - customemc
+        - tekkitrestrict
+        - essentials
+        - projecte_old
+        - projecte
+```

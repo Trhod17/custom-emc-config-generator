@@ -1,16 +1,13 @@
 import yaml
 
 from core.configpack import ConfigPack
-from core.constants import config_pack_dir
-from core.item import Item
+from core.constants import CONFIG_PACK_DIR, Era
+from core.generators.customemc import CustomEmc
+from core.generators.essentials import EssentialsWorth, EssentialsItems
+from core.generators.tekkitrestrict import TekkitRestrict
+from core.items.itemee2 import ItemEE2
 from core.logger import log
-from core.printer import (
-    CustomEmc,
-    EssentialsItems,
-    EssentialsWorth,
-    Printer,
-    TekkitRestrict,
-)
+from core.generators.generator import Generator
 from core.registry import Registry
 
 
@@ -22,13 +19,14 @@ class App:
         self._config_packs = {}
         self._registries = {}
 
-    def read_yaml_file(self, filename):
+    @staticmethod
+    def read_yaml_file(filename):
         with open(f"{filename}", "r") as f:
             output = yaml.safe_load(f)
         return output
 
     def load_config_packs(self):
-        for config_dirs in config_pack_dir.iterdir():
+        for config_dirs in CONFIG_PACK_DIR.iterdir():
             for file in config_dirs.iterdir():
                 if file.is_file() and file.name == "config.yml":
                     data = self.read_yaml_file(file)
@@ -44,14 +42,26 @@ class App:
         for pack in self._config_packs.values():
             log.info(f"Registering Mods for {pack.cpid}")
             for mod in pack.mods:
-                self._register_items(self._registries[pack.cpid], pack.mods[mod])
+                self._register_items(self._registries[pack.cpid], pack.mods[mod], pack)
 
-    def _register_items(self, registry, mod):
+    @staticmethod
+    def _create_item(item_type, name, item_list, mod):
+        item = item_type()
+        item.parse(name, item_list[name], mod)
+        return item
+
+    def _register_items(self, registry, mod, pack):
         for item_list in mod.items:
             for name in item_list:
                 log.debug(f"Registered Item {name} from {mod.name}")
-                item = Item()
-                item.parse(name, item_list[name], mod.name)
+                item = None
+                #log.debug(pack.era)
+                if pack.era == Era.EE2.value:
+                    item = self._create_item(ItemEE2, name, item_list, mod)
+                # if pack.era == Era.PRE_FLATTENING.value:
+                #     pass
+                # if pack.era == Era.MODERN.value:
+                #     pass
                 registry.add_item(name, item)
 
     def process_recipes(self):
@@ -59,8 +69,9 @@ class App:
         for pack in self._config_packs.values():
             registry = self._registries[pack.cpid]
             log.info(f"Processing Recipes for {pack.cpid}")
+            #log.debug(registry.get_all_items())
             for item in registry.get_all_items().values():
-                log.debug(f"Parsing Recipe for {item.name}")
+                log.debug(f"Parsing Recipe for {item.name} from {item.mod} in {pack.name}")
                 item.parse_recipe(registry)
 
     def process_emc(self):
@@ -69,15 +80,15 @@ class App:
             for item in self._registries[pack.cpid].get_all_items().values():
                 item.parse_emc()
 
-    def run_printers(self):
-        self.run_printer(CustomEmc(), "customemc", "CustomEMC.cfg")
-        self.run_printer(TekkitRestrict(), "tekkitrestrict", "ModModifications.yml")
-        self.run_printer(EssentialsWorth(), "essentials", "worth.yml")
-        self.run_printer(EssentialsItems(), "essentials", "items.csv")
-
-    def run_printer(self, printer: Printer, name: str, filename: str):
+    def run_generators(self):
         for pack in self._config_packs.values():
-            if name in pack.printers:
+            self.run_generator(CustomEmc(), "customemc", "CustomEMC.cfg", pack)
+            self.run_generator(TekkitRestrict(), "tekkitrestrict", "ModModifications.yml", pack)
+            self.run_generator(EssentialsWorth(), "essentials", "worth.yml", pack)
+            self.run_generator(EssentialsItems(), "essentials", "items.csv", pack)
+
+    def run_generator(self, generator: Generator, name: str, filename: str, pack):
+            if name in pack.generators:
                 log.info(f"Printing {name.capitalize()} {filename} for {pack.cpid}")
-                print = printer.setup(pack)
-                print.create_file(self._registries[pack.cpid])
+                generate = generator.setup(pack)
+                generate.create_file(self._registries[pack.cpid])
