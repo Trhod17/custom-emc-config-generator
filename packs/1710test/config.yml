@@ -1,0 +1,19 @@
+#Config Name
+name: 1.7.10Test
+#Config Pack ID
+cpid: 1710test
+#Modpack Version
+modpack_version: 1.0.0
+game_version: 1.7.10
+#Modpack Era
+era: projecte_old
+#List of Mods
+mods:
+    #Mod Entry
+    minecraft:
+        #Mod EMC file name
+        configs:
+            - minecraft/items
+        version: 1.7.10
+generators:
+    - projecte_old

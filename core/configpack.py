@@ -1,3 +1,4 @@
+import sys
 from pathlib import Path
 
 import yaml
@@ -11,6 +12,7 @@ class ConfigPack:
         self.name = None
         self.cpid = None
         self.modpack_version = None
+        self.game_version = None
         self.era = None
         self.config_dir = None
         self.mods = {}
@@ -20,7 +22,7 @@ class ConfigPack:
     def required(data, element):
         if data["name"] is None:
             log.error(f"Config.yml Missing Required Element {element}")
-            exit()
+            sys.exit()
         return data[element]
 
     @staticmethod
@@ -31,8 +33,9 @@ class ConfigPack:
 
 
     def parse(self, data, config_dirs):
-        self.name = self.required(data, 'name')
+        self.name = self.required(data, "name")
         self.cpid = self.required(data, "cpid")
+        self.game_version = self.required(data, "game_version")
         self.modpack_version = self.optional(data, "modpack_version")
         self.generators = self.required(data, "generators")
         self.era = self.required(data, "era")

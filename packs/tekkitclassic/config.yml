@@ -4,6 +4,7 @@ name: Tekkit Classic
 cpid: tekkitclassic
 #Modpack Version
 modpack_version: 3.1.2
+game_version: 1.2.5
 #Modpack Era
 era: ee2
 #List of Mods

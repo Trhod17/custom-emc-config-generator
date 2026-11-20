@@ -15,18 +15,16 @@ class ItemEE2(ItemBase):
         self.unrepairable = False
         self.add_ore = False
 
-    def parse(self, name, data, mod) -> None:
+    def parse(self, name, data, mod):
         super().parse(name, data, mod)
         self.id = data["id"]
         if "meta" in data:
             self.meta = data["meta"]
-        self.emc = 0
 
         if "custom_emc_extras" in data:
             self.custom_emc_extras = True
 
             sub_data = data["custom_emc_extras"]
-            print(sub_data)
 
             if "num_dusts" in sub_data and "dust_tier" in sub_data:
                 self.num_dusts = sub_data["num_dusts"]
@@ -40,6 +38,7 @@ class ItemEE2(ItemBase):
 
             if "add_ore" in sub_data:
                 self.add_ore = sub_data["add_ore"]
+
 
     def parse_recipe(self, registry) -> None:
         items = []

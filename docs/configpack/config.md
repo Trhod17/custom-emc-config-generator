@@ -64,8 +64,7 @@ modpack_version: 1.0.0
 ## era
 Valid eras are
 - ee2 (1.1 - 1.2.5) (requires Customemc mod found in [mods](/mods))
-- projecte_old (1.7.10 - 1.9) customemc.cfg
-- projecte_new (1.10 - 1.12.2) customemc.json
+- projecte_old (1.7.10 - 1.12.2)
 - projecte (1.13 and above)
 
 ```yaml

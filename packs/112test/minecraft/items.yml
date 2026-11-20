@@ -1,0 +1,195 @@
+water_bucket:
+    id: 326
+    meta: 0
+    emc: 769
+lava_bucket:
+    id: 327
+    meta: 0
+    emc: 832
+milk_bucket:
+    id: 335
+    meta: 0
+    emc: 849
+flint:
+    id: 318
+    meta: 0
+    emc: 16
+string:
+    id: 287
+    meta: 0
+    emc: 12
+slime_ball:
+    id: 341
+    meta: 0
+    emc: 24
+bone:
+    id: 352
+    meta: 0
+    emc: 144
+clay:
+    id: 337
+    meta: 0
+    emc: 16
+brick:
+    id: 336
+    meta: 0
+    recipe:
+        - item: clay
+          qty: 1.5
+    qty_from_craft: 1
+snow_ball:
+    id: 332
+    meta: 0
+    emc: 1
+glowstone_dust:
+    id: 348
+    meta: 0
+    emc: 384
+leather:
+    id: 334
+    meta: 0
+    emc: 64
+feather:
+    id: 288
+    meta: 0
+    emc: 48
+brown_mushroom:
+    id: 39
+    meta: 0
+    emc: 32
+red_mushroom:
+    id: 40
+    meta: 0
+    emc: 32
+gunpowder:
+    id: 289
+    meta: 0
+    emc: 192
+seeds:
+    id: 295
+    meta: 0
+    emc: 16
+wheat:
+    id: 296
+    meta: 0
+    emc: 24
+saddle:
+    id: 329
+    meta: 0
+    emc: 192
+egg:
+    id: 344
+    meta: 0
+    emc: 32
+pumpkin_seeds:
+    id: 360
+    meta: 0
+    emc: 36
+melon_seeds:
+    id: 362
+    meta: 0
+    emc: 16
+ender_pearl:
+    id: 368
+    meta: 0
+    emc: 1024
+blaze_rod:
+    id: 369
+    meta: 0
+    emc: 1536
+ghast_teat:
+    id: 370
+    meta: 0
+    emc: 370
+nether_wart:
+    id: 372
+    meta: 0
+    emc: 24
+spider_eye:
+    id: 375
+    meta: 0
+    emc: 128
+blaze_powder:
+    id: 377
+    meta: 0
+    recipe:
+        - item: blaze_rod
+          qty: 0.5
+    qty_from_craft: 1
+magma_cream:
+    id: 378
+    meta: 0
+    recipe:
+        - item: slime_ball
+          qty: 1
+        - item: blaze_powder
+          qty: 1
+    qty_from_craft: 1
+eye_of_ender:
+    id: 381
+    meta: 0
+    recipe:
+        - item: ender_pearl
+          qty: 1
+        - item: blaze_powder
+          qty: 1
+    qty_from_craft: 1
+melon_slice:
+    id: 360
+    meta: 0
+    emc: 16
+apple:
+    id: 260
+    meta: 0
+    emc: 128
+bread:
+    id: 297
+    meta: 0
+    recipe:
+        - item: wheat
+          qty: 3
+    qty_from_craft: 1
+raw_porkchop:
+    id: 319
+    meta: 0
+    emc: 64
+cooked_porkchop:
+    id: 320
+    meta: 0
+    recipe:
+        - item: raw_porkchop
+          qty: 1.3
+    qty_from_craft: 1
+raw_fish:
+    id: 349
+    meta: 0
+    emc: 64
+cooked_fish:
+    id: 350
+    meta: 0
+    recipe:
+        - item: raw_fish
+          qty: 1.3
+    qty_from_craft: 1
+raw_chicken:
+    id: 365
+    meta: 0
+    emc: 64
+cooked_chicken:
+    id: 366
+    meta: 0
+    recipe:
+        - item: raw_chicken
+          qty: 1.3
+    qty_from_craft: 1
+raw_beef:
+    id: 363
+    meta: 0
+    emc: 64
+cooked_beef:
+    id: 364
+    meta: 0
+    recipe:
+        - item: raw_beef
+          qty: 1.3
+    qty_from_craft: 1
