@@ -3,7 +3,7 @@
 ---
 ## Directory Layout
 
-```commandline
+```bash
 packs/
 └── exampleconfigpack/
     ├── examplemod/
