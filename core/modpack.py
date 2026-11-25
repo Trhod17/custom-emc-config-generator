@@ -3,16 +3,16 @@ from pathlib import Path
 
 import yaml
 
-from core.constants import CONFIG_PACK_DIR
+from core.constants import MODPACKS_DIR
 from core.logger import log
 
 
-class ConfigPack:
+class ModPack:
     def __init__(self):
         self.name = None
-        self.cpid = None
+        self.modpack_id = None
         self.modpack_version = None
-        self.game_version = None
+        self.game_version: str
         self.era = None
         self.config_dir = None
         self.mods = {}
@@ -21,7 +21,7 @@ class ConfigPack:
     @staticmethod
     def required(data, element):
         if data["name"] is None:
-            log.error(f"Config.yml Missing Required Element {element}")
+            log.error(f"modpack.yml Missing Required Element {element}")
             sys.exit()
         return data[element]
 
@@ -31,10 +31,9 @@ class ConfigPack:
             return data[element]
         return None
 
-
-    def parse(self, data, config_dirs):
+    def parse(self, data):
         self.name = self.required(data, "name")
-        self.cpid = self.required(data, "cpid")
+        self.modpack_id = self.required(data, "modpack_id")
         self.game_version = self.required(data, "game_version")
         self.modpack_version = self.optional(data, "modpack_version")
         self.generators = self.required(data, "generators")
@@ -44,7 +43,7 @@ class ConfigPack:
         for raw_mod in raw_mods:
             mod = Mod()
             log.debug(f"{raw_mod}")
-            mod.parse(raw_mod, raw_mods[raw_mod], self.cpid)
+            mod.parse(raw_mod, raw_mods[raw_mod], self.modpack_id)
             self.mods.update({raw_mod: mod})
 
         return self
@@ -61,11 +60,11 @@ class Mod:
         self.name = name
         self.version = data["version"]
 
-        if 'modid' in data:
-            self.modid = data['modid']
+        if "modid" in data:
+            self.modid = data["modid"]
 
         for file in data["configs"]:
-            fileDir = Path(f"{CONFIG_PACK_DIR}/{cpid}/{file}.yml")
+            fileDir = Path(f"{MODPACKS_DIR}/{cpid}/{file}.yml")
             if fileDir.exists():
                 with open(fileDir) as stream:
                     objs = yaml.safe_load(stream)

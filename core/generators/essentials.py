@@ -1,15 +1,15 @@
 import csv
 import os
 
-from core.configpack import ConfigPack
 from core.generators.generator import Generator
+from core.modpack import ModPack
 
 
 class EssentialsWorth(Generator):
     def __init__(self):
         super().__init__()
         self.output_file_name = "worth.yml"
-        self.pack: ConfigPack
+        self.pack: ModPack
 
     def setup(self, pack):
         self.pack = pack
@@ -17,7 +17,7 @@ class EssentialsWorth(Generator):
 
     def create_file(self, registry):
         output_dir = self.get_path(
-            self.pack.cpid, self.pack.modpack_version, "essentials"
+            self.pack.modpack_id, self.pack.modpack_version, "essentials"
         )
 
         if os.path.isfile(output_dir + self.output_file_name):
@@ -55,7 +55,7 @@ class EssentialsItems(Generator):
     def __init__(self):
         super().__init__()
         self.output_file_name = "items.csv"
-        self.pack: ConfigPack
+        self.pack: ModPack
 
     def setup(self, pack):
         self.pack = pack
@@ -63,7 +63,7 @@ class EssentialsItems(Generator):
 
     def create_file(self, registry):
         output_dir = self.get_path(
-            self.pack.cpid, self.pack.modpack_version, "essentials"
+            self.pack.modpack_id, self.pack.modpack_version, "essentials"
         )
 
         if os.path.isfile(output_dir + self.output_file_name):

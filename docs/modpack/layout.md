@@ -1,9 +1,9 @@
-# Config Pack Layout
+# Modpack Layout
 
 ---
 ## Directory Layout
 
-```bash
+```commandline
 packs/
 └── exampleconfigpack/
     ├── examplemod/
@@ -11,6 +11,6 @@ packs/
     │   ├── blocks.yml
     │   ├── tools.yml
     │   └── etc...
-    ├── config.yml
+    ├── modpack.yml
     └── examplemod2.yml
 ```

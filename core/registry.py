@@ -1,3 +1,5 @@
+import sys
+
 from core.logger import log
 
 
@@ -12,14 +14,14 @@ class Registry:
             existing_registry_object = self.get_item(name)
             error = f"""Item {name} from {item.mod}, Already Exists in Registry from mod {existing_registry_object.mod}"""
             log.error(error)
-            raise LookupError(error)
+            sys.exit()
         self._Items[name] = item
 
     def get_item(self, item: str):
         item_obj = self._Items.get(item)
         if item_obj is None:
             log.error(f"Could not Find Item: {item}")
-            raise LookupError(f"Item not found {item}")
+            sys.exit()
         return item_obj
 
     def get_all_items(self):

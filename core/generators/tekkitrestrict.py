@@ -1,14 +1,14 @@
 import os
 
-from core.configpack import ConfigPack
 from core.generators.generator import Generator
+from core.modpack import ModPack
 
 
 class TekkitRestrict(Generator):
     def __init__(self):
         super().__init__()
         self.output_file_name = "ModModifications.yml"
-        self.pack: ConfigPack
+        self.pack: ModPack
 
     def setup(self, pack):
         self.pack = pack
@@ -16,7 +16,7 @@ class TekkitRestrict(Generator):
 
     def create_file(self, registry):
         output_dir = self.get_path(
-            self.pack.cpid, self.pack.modpack_version, "tekkitrestrict"
+            self.pack.modpack_id, self.pack.modpack_version, "tekkitrestrict"
         )
 
         if os.path.isfile(output_dir + self.output_file_name):

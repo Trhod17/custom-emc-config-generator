@@ -1,6 +1,7 @@
 from core.items.itembase import ItemBase
 from core.logger import log
-from core.recipe import Recipe
+
+# from core.recipe import Recipe
 
 
 class ItemPreFlattening(ItemBase):
@@ -18,13 +19,7 @@ class ItemPreFlattening(ItemBase):
             self.meta = data["meta"]
 
     def parse_recipe(self, registry):
-        items = []
-
-        for raw_item in self._raw_recipe:
-            item = registry.get_item(raw_item["item"])
-            items.append([item, raw_item["qty"]])
-
-        self.recipe = Recipe().parse(items)
+        super().parse_recipe(registry)
 
     def parse_emc(self):
         new_emc = 0

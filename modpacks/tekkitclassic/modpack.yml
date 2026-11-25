@@ -1,7 +1,7 @@
 #Config Name
 name: Tekkit Classic
 #Config Pack ID
-cpid: tekkitclassic
+modpack_id: tekkitclassic
 #Modpack Version
 modpack_version: 3.1.2
 game_version: 1.2.5

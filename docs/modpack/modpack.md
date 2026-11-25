@@ -1,10 +1,10 @@
-# Config Yaml Spec
+# Modpack Yaml (modpack.yml) Spec
 
 ```yaml
 #Config Name {Required}
 name: Example
 #Config Pack ID {Required}
-cpid: example
+modpack_id: example
 #Modpack Version {Optional}
 modpack_version: 1.0.0
 #Era
@@ -46,10 +46,10 @@ name: Example
 #Human-readable name for config pack {Required}
 ```
 
-## cpid (Required)
+## modpack_id (Required)
 
 ```yaml
-cpid: example
+modpack_id: example
 #Config Pack ID {Required}
 #No Spaces or Special Characters
 ```

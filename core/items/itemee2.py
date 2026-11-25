@@ -1,6 +1,7 @@
 from core.items.itembase import ItemBase
 from core.logger import log
-from core.recipe import Recipe
+
+# from core.recipe import Recipe
 
 
 class ItemEE2(ItemBase):
@@ -39,15 +40,8 @@ class ItemEE2(ItemBase):
             if "add_ore" in sub_data:
                 self.add_ore = sub_data["add_ore"]
 
-
     def parse_recipe(self, registry) -> None:
-        items = []
-
-        for raw_item in self._raw_recipe:
-            item = registry.get_item(raw_item["item"])
-            items.append([item, raw_item["qty"]])
-
-        self.recipe = Recipe().parse(items)
+        super().parse_recipe(registry)
 
     def parse_emc(self) -> int:
         new_emc = 0

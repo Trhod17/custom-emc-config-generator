@@ -1,0 +1,113 @@
+water_bucket:
+    emc: 769
+lava_bucket:
+    emc: 832
+milk_bucket:
+    emc: 849
+flint:
+    emc: 16
+string:
+    emc: 12
+slime_ball:
+    emc: 24
+bone:
+    emc: 144
+clay_ball:
+    emc: 16
+brick:
+    recipe:
+        - item: clay_ball
+          qty: 1.5
+    qty_from_craft: 1
+snow_ball:
+    emc: 1
+glowstone_dust:
+    emc: 384
+leather:
+    emc: 64
+feather:
+    emc: 48
+brown_mushroom:
+    emc: 32
+red_mushroom:
+    emc: 32
+gunpowder:
+    emc: 192
+seeds:
+    emc: 16
+wheat:
+    emc: 24
+saddle:
+    emc: 192
+egg:
+    emc: 32
+pumpkin_seeds:
+    emc: 36
+melon_seeds:
+    emc: 16
+ender_pearl:
+    emc: 1024
+blaze_rod:
+    emc: 1536
+ghast_teat:
+    emc: 370
+nether_wart:
+    emc: 24
+spider_eye:
+    emc: 128
+blaze_powder:
+    recipe:
+        - item: blaze_rod
+          qty: 0.5
+    qty_from_craft: 1
+magma_cream:
+    recipe:
+        - item: slime_ball
+          qty: 1
+        - item: blaze_powder
+          qty: 1
+    qty_from_craft: 1
+eye_of_ender:
+    recipe:
+        - item: ender_pearl
+          qty: 1
+        - item: blaze_powder
+          qty: 1
+    qty_from_craft: 1
+melon_slice:
+    emc: 16
+apple:
+    emc: 128
+bread:
+    recipe:
+        - item: wheat
+          qty: 3
+    qty_from_craft: 1
+raw_porkchop:
+    emc: 64
+cooked_porkchop:
+    recipe:
+        - item: raw_porkchop
+          qty: 1.3
+    qty_from_craft: 1
+raw_fish:
+    emc: 64
+cooked_fish:
+    recipe:
+        - item: raw_fish
+          qty: 1.3
+    qty_from_craft: 1
+raw_chicken:
+    emc: 64
+cooked_chicken:
+    recipe:
+        - item: raw_chicken
+          qty: 1.3
+    qty_from_craft: 1
+raw_beef:
+    emc: 64
+cooked_beef:
+    recipe:
+        - item: raw_beef
+          qty: 1.3
+    qty_from_craft: 1

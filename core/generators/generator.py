@@ -11,8 +11,6 @@ class Generator:
         pass
 
     @staticmethod
-    def get_path(cpid, version, path):
-        output_dir = f"output/{cpid}/{version}/{path}/"
+    def get_path(modpack_id, version, path):
+        output_dir = f"output/{modpack_id}/{version}/{path}/"
         return output_dir
-
-

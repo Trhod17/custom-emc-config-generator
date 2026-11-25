@@ -1,0 +1,19 @@
+#Config Name
+name: 1.12.2Test
+#Config Pack ID
+modpack_id: 112test
+#Modpack Version
+modpack_version: 1.0.0
+game_version: 1.12.2
+#Modpack Era
+era: projecte_old
+#List of Mods
+mods:
+    #Mod Entry
+    minecraft:
+        #Mod EMC file name
+        configs:
+            - minecraft/items
+        version: 1.12.2
+generators:
+    - projecte

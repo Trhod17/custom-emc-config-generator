@@ -1,22 +1,22 @@
 import os
 
-from core.configpack import ConfigPack
 from core.generators.generator import Generator
+from core.modpack import ModPack
 
 
 class CustomEmc(Generator):
     def __init__(self):
         super().__init__()
         self.output_file_name = "CustomEMC.cfg"
-        self.pack: ConfigPack
+        self.pack: ModPack
 
-    def setup(self, pack: ConfigPack):
+    def setup(self, pack: ModPack):
         self.pack = pack
         return self
 
     def create_file(self, registry):
         output_dir = self.get_path(
-            self.pack.cpid, self.pack.modpack_version, "customemc"
+            self.pack.modpack_id, self.pack.modpack_version, "customemc"
         )
         if os.path.isfile(output_dir + self.output_file_name):
             os.remove(output_dir + self.output_file_name)

@@ -1,6 +1,7 @@
 from core.items.itembase import ItemBase
 from core.logger import log
-from core.recipe import Recipe
+
+# from core.recipe import Recipe
 
 
 class ItemModern(ItemBase):
@@ -8,17 +9,10 @@ class ItemModern(ItemBase):
         super().__init__()
 
     def parse(self, name, data, mod):
-        self.parse(name, data, mod)
-
+        super().parse(name, data, mod)
 
     def parse_recipe(self, registry) -> None:
-        items = []
-
-        for raw_item in self._raw_recipe:
-            item = registry.get_item(raw_item["item"])
-            items.append([item, raw_item["qty"]])
-
-        self.recipe = Recipe().parse(items)
+        super().parse_recipe(registry)
 
     def parse_emc(self) -> int:
         new_emc = 0
