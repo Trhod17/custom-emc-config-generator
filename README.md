@@ -26,7 +26,7 @@ Info in [docs](docs/modpack) folder
 
 
 ## Usage
-1. Clone the repository or Download from [releases](https://github.com/Trhod17/custom-emc-config-generator/releases)
+1. Clone the repository or Download from [releases](https://github.com/Trhod17/custom-emc-config-generator/releases) (Download `Source code (zip)`)
 2. Install the required Python packages:
 ```bash
 pip install -r requirements.txt
