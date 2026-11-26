@@ -353,32 +353,34 @@ rail:
     id: 66
     meta: 0
     recipe:
-        - item: iron_ingot
-          qty: 6
-        - item: stick
+        - item: wooden_railbed
           qty: 1
-    qty_from_craft: 1
+        - item: standard_rail
+          qty: 6
+    qty_from_craft: 16
 detector_rail:
     id: 28
     meta: 0
     recipe:
-        - item: iron_ingot
+        - item: wooden_railbed
           qty: 1
         - item: stone_pressure_plate
-          qty: 0.166
+          qty: 1
         - item: redstone
-          qty: 0.166
+          qty: 1
+        - item: standard_rail
+          qty: 6
     qty_from_craft: 1
 powered_rail:
     id: 27
     meta: 0
     recipe:
-        - item: gold_ingot
+        - item: advanced_rail
+          qty: 6
+        - item: wooden_railbed
           qty: 1
-        - item: stick
-          qty: 0.166
         - item: redstone
-          qty: 0.166
+          qty: 1
     qty_from_craft: 1
 piston:
     id: 33

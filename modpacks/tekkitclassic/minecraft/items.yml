@@ -128,8 +128,8 @@ gold_nugget:
     meta: 0
     recipe:
         - item: gold_ingot
-          qty: 0.11
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 9
 sign:
     id: 323
     meta: 0
@@ -237,8 +237,8 @@ blaze_powder:
     meta: 0
     recipe:
         - item: blaze_rod
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 magma_cream:
     id: 378
     meta: 0
@@ -262,8 +262,8 @@ bone_meal:
     meta: 15
     recipe:
         - item: bone
-          qty: 0.33
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 3
 ink_sac:
     id: 351
     meta: 0
@@ -273,8 +273,8 @@ red:
     meta: 1
     recipe:
         - item: rose
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 green:
     id: 351
     meta: 2
@@ -291,91 +291,91 @@ purple:
     meta: 5
     recipe:
         - item: red
-          qty: 0.5
+          qty: 1
         - item: lapis
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 cyan:
     id: 351
     meta: 6
     recipe:
         - item: green
-          qty: 0.5
+          qty: 1
         - item: lapis
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 light_grey:
     id: 351
     meta: 7
     recipe:
-        - item: bone_meal
-          qty: 0.66
+        - item: grey
+          qty: 1
         - item: ink_sac
-          qty: 0.33
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 grey:
     id: 351
     meta: 8
     recipe:
         - item: bone_meal
-          qty: 0.5
+          qty: 1
         - item: ink_sac
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 pink:
     id: 351
     meta: 9
     recipe:
         - item: red
-          qty: 0.5
+          qty: 1
         - item: bone_meal
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 lime:
     id: 351
     meta: 10
     recipe:
         - item: green
-          qty: 0.5
+          qty: 1
         - item: bone_meal
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 yellow:
     id: 351
     meta: 11
     recipe:
         - item: flower
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 light_blue:
     id: 351
     meta: 12
     recipe:
         - item: bone_meal
-          qty: 0.5
+          qty: 1
         - item: lapis
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 magenta:
     id: 351
     meta: 13
     recipe:
         - item: lapis
-          qty: 0.25
+          qty: 1
         - item: red
-          qty: 0.5
+          qty: 2
         - item: bone_meal
-          qty: 0.25
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 4
 orange:
     id: 351
     meta: 14
     recipe:
         - item: red
-          qty: 0.5
+          qty: 1
         - item: yellow
-          qty: 0.5
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 2
 melon_slice:
     id: 360
     meta: 0
@@ -473,10 +473,10 @@ cookie:
     meta: 0
     recipe:
         - item: wheat
-          qty: 0
+          qty: 2
         - item: cocoa_beans
-          qty: 0.125
-    qty_from_craft: 1
+          qty: 1
+    qty_from_craft: 8
 iron_ingot:
     id: 265
     meta: 0
