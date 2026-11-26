@@ -11,11 +11,13 @@ Only supports modpacks that use EE2 for minecraft 1.2.5
 
 ## Config Packs
 
-Info in [docs](docs/modpack) folder
+Check the Github Wiki or
 
-- [Modpack layout](docs/modpack/layout.md)
-- [modpack.yml spec](docs/modpack/config.md)
-- [{mod}.yml spec](docs/modpack/mod.md)
+Info in [wiki](wiki/) folder
+
+- [Modpack layout](wiki/layout.md)
+- [modpack.yml spec](docs/home.md)
+- [{mod}.yml spec](docs/mod.md)
 
 ## Requirements
 - Python 3.x
