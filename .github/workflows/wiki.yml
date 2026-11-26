@@ -1,0 +1,20 @@
+name: Pull wiki
+on:
+  gollum: # Runs whenever a wiki page is created or edited
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  pull-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: Andrew-Chen-Wang/github-wiki-action@v5
+        with:
+          direction: pull
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          branch: sync-wiki
+          title: Sync wiki edits back into wiki/
+          commit-message: Sync wiki edits back into wiki/
